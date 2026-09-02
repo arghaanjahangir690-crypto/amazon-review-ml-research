@@ -1,0 +1,11 @@
+STAGE 1 MODULE 6 COMPLETED
+Primary Direction: Reporting / Dashboard
+Primary Score: 87
+User Goal: Research
+User Target: rating
+Target Candidates: ['rating']
+Feature Columns Count: 8
+Review Columns Count: 2
+Excluded Columns Count: 8
+Blockers: ['Review risk/sensitive/leakage columns.']
+Next: Stage 1 Module 7

@@ -1,0 +1,5 @@
+LAYER 20 COMPLETED
+Dataset: dataset.csv
+Prompt file: D:\data\stage0-launch-pad\20_next_stage_prompt\next_stage_ml_prompt.txt
+Contract file: D:\data\stage0-launch-pad\20_next_stage_prompt\next_stage_contract.json
+Next: Layer 21 - Final Stage0 Summary

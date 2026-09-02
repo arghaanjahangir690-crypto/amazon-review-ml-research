@@ -1,0 +1,22 @@
+{
+    "stage": "Stage 1 - Module 1 Input Reader",
+    "created_on": "2026-08-23 15:02:14.276653",
+    "stage1_dataset": "D:\\data\\dataset_for_stage_1.csv",
+    "rows": 1465,
+    "columns": 17,
+    "numeric_columns_count": 1,
+    "categorical_columns_count": 16,
+    "missing_percentage": 0.008,
+    "duplicate_rows": 0,
+    "risk_columns_count": 6,
+    "risk_columns": [
+        "product_id",
+        "product_name",
+        "discount_percentage",
+        "user_id",
+        "user_name",
+        "review_id"
+    ],
+    "file_check_csv": "D:\\data\\stage1-dataset-intelligence\\Stage1_Input_File_Check.csv",
+    "next_module": "Stage 1 Module 2 - Stage0 Intelligence Interpreter"
+}

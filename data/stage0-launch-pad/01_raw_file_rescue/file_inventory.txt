@@ -1,0 +1,21 @@
+
+FILE INVENTORY
+==================================================
+
+Created On:
+2026-08-23 15:01:05.323861
+
+Dataset Path:
+D:\data\dataset.csv
+
+File Exists:
+True
+
+File Extension:
+.csv
+
+File Size:
+4744481 bytes
+
+File Size MB:
+4.5247

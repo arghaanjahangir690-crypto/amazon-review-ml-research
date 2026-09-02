@@ -1,0 +1,129 @@
+{
+    "created_on": "2026-08-23 15:01:46.689530",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "stage0_path": "D:\\data\\stage0-launch-pad",
+    "total_stages": 24,
+    "stages": [
+        {
+            "stage_no": "0",
+            "stage_name": "Control and Purpose",
+            "purpose": "Creates main purpose and control files"
+        },
+        {
+            "stage_no": "1",
+            "stage_name": "Raw File Rescue",
+            "purpose": "Checks encoding delimiter empty lines broken rows"
+        },
+        {
+            "stage_no": "2",
+            "stage_name": "Dataset Structure",
+            "purpose": "Checks rows columns datatypes null columns sample values"
+        },
+        {
+            "stage_no": "3",
+            "stage_name": "Data Quality",
+            "purpose": "Checks missing duplicates empty rows noisy values"
+        },
+        {
+            "stage_no": "4A",
+            "stage_name": "Basic Column Semantics",
+            "purpose": "Finds numeric categorical date text ID like columns"
+        },
+        {
+            "stage_no": "4B",
+            "stage_name": "Target PII Leakage ML Usability",
+            "purpose": "Finds target PII leakage and usable features"
+        },
+        {
+            "stage_no": "5",
+            "stage_name": "Numeric Basic Statistics",
+            "purpose": "Creates numeric statistics"
+        },
+        {
+            "stage_no": "6",
+            "stage_name": "Categorical Basic Statistics",
+            "purpose": "Creates categorical statistics"
+        },
+        {
+            "stage_no": "7",
+            "stage_name": "Distribution Summary",
+            "purpose": "Checks unique dominant cardinality patterns"
+        },
+        {
+            "stage_no": "8",
+            "stage_name": "Correlation Analysis",
+            "purpose": "Checks numeric correlations"
+        },
+        {
+            "stage_no": "9",
+            "stage_name": "Outlier Analysis",
+            "purpose": "Finds numeric outliers using IQR"
+        },
+        {
+            "stage_no": "10",
+            "stage_name": "Skewness and Kurtosis",
+            "purpose": "Checks numeric distribution shape"
+        },
+        {
+            "stage_no": "11",
+            "stage_name": "Class Balance Analysis",
+            "purpose": "Checks low cardinality class balance"
+        },
+        {
+            "stage_no": "12",
+            "stage_name": "Rare Category Analysis",
+            "purpose": "Finds rare categorical values"
+        },
+        {
+            "stage_no": "13",
+            "stage_name": "Metadata Generator",
+            "purpose": "Creates metadata dictionary datasheet draft"
+        },
+        {
+            "stage_no": "14",
+            "stage_name": "Dictionary Datasheet Review",
+            "purpose": "Checks missing documentation"
+        },
+        {
+            "stage_no": "15",
+            "stage_name": "Governance PII Responsible AI",
+            "purpose": "Checks privacy sensitive fields AI risk"
+        },
+        {
+            "stage_no": "16",
+            "stage_name": "Feature Engineering Suggestions",
+            "purpose": "Suggests possible new features"
+        },
+        {
+            "stage_no": "17",
+            "stage_name": "ML Readiness Score",
+            "purpose": "Scores dataset readiness for ML"
+        },
+        {
+            "stage_no": "18",
+            "stage_name": "ML Problem Definitions",
+            "purpose": "Suggests ML problem types"
+        },
+        {
+            "stage_no": "19",
+            "stage_name": "Research Recommendations",
+            "purpose": "Suggests research questions"
+        },
+        {
+            "stage_no": "20",
+            "stage_name": "Next Stage Prompt Generator",
+            "purpose": "Creates next ML prompt"
+        },
+        {
+            "stage_no": "21",
+            "stage_name": "Final Stage0 Summary",
+            "purpose": "Creates final index and summary"
+        },
+        {
+            "stage_no": "22",
+            "stage_name": "Self Explainer",
+            "purpose": "Creates user guide"
+        }
+    ]
+}

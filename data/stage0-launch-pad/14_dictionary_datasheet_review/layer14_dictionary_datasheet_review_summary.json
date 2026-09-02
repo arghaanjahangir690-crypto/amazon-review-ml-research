@@ -1,0 +1,26 @@
+{
+    "stage": "Layer 14 - Data Dictionary and Datasheet Review",
+    "created_on": "2026-08-23 15:01:33.352430",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "layer_status": "REVIEW_REQUIRED",
+    "warnings": [
+        "Column meanings are still pending unless filled by user/domain expert.",
+        "Target column must be confirmed before ML.",
+        "Sensitive fields and ML-allowed fields must be confirmed."
+    ],
+    "recommendations": [
+        "Fill dictionary_review_checklist.csv before model training.",
+        "Confirm target column and leakage-risk columns manually.",
+        "Use this layer as a documentation checkpoint before feature engineering."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\14_dictionary_datasheet_review\\layer14_dictionary_datasheet_review_report.txt",
+        "review_csv": "D:\\data\\stage0-launch-pad\\14_dictionary_datasheet_review\\dictionary_review_checklist.csv",
+        "missing_metadata_txt": "D:\\data\\stage0-launch-pad\\14_dictionary_datasheet_review\\missing_metadata_requirements.txt",
+        "summary_json": "D:\\data\\stage0-launch-pad\\14_dictionary_datasheet_review\\layer14_dictionary_datasheet_review_summary.json"
+    },
+    "next_action": "Run Layer 15 - Governance, PII and Responsible AI Checklist"
+}

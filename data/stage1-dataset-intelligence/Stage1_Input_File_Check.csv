@@ -1,0 +1,6 @@
+input_name,path,exists
+stage1_dataset,D:\data\dataset_for_stage_1.csv,True
+stage0_total_intelligence,D:\data\stage0-launch-pad\24_stage0_total_intelligence\stage0_total_intelligence.json,True
+stage1_handover_contract,D:\data\stage0-launch-pad\23_stage1_ready_export\stage1_handover_contract.json,True
+risk_columns,D:\data\stage0-launch-pad\23_stage1_ready_export\risk_columns_for_review.csv,True
+stage0_file_index,D:\data\stage0-launch-pad\23_stage1_ready_export\stage0_file_index.csv,True

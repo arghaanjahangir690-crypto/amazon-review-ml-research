@@ -1,0 +1,17 @@
+column_name,dtype,missing_count,unique_values,meaning_provided,unit_provided,allowed_values_or_range_provided,sensitivity_confirmed,ml_usage_confirmed,target_status_confirmed,review_status
+product_id,object,0,1351,No,No,No,No,No,No,Pending User/Domain Expert Review
+product_name,object,0,1337,No,No,No,No,No,No,Pending User/Domain Expert Review
+category,object,0,211,No,No,No,No,No,No,Pending User/Domain Expert Review
+discounted_price,object,0,550,No,No,No,No,No,No,Pending User/Domain Expert Review
+actual_price,object,0,449,No,No,No,No,No,No,Pending User/Domain Expert Review
+discount_percentage,object,0,92,No,No,No,No,No,No,Pending User/Domain Expert Review
+rating,object,0,28,No,No,No,No,No,No,Pending User/Domain Expert Review
+rating_count,object,2,1143,No,No,No,No,No,No,Pending User/Domain Expert Review
+about_product,object,0,1293,No,No,No,No,No,No,Pending User/Domain Expert Review
+user_id,object,0,1194,No,No,No,No,No,No,Pending User/Domain Expert Review
+user_name,object,0,1194,No,No,No,No,No,No,Pending User/Domain Expert Review
+review_id,object,0,1194,No,No,No,No,No,No,Pending User/Domain Expert Review
+review_title,object,0,1194,No,No,No,No,No,No,Pending User/Domain Expert Review
+review_content,object,0,1212,No,No,No,No,No,No,Pending User/Domain Expert Review
+img_link,object,0,1412,No,No,No,No,No,No,Pending User/Domain Expert Review
+product_link,object,0,1465,No,No,No,No,No,No,Pending User/Domain Expert Review

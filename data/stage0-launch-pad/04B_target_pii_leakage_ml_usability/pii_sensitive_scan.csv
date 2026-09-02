@@ -1,0 +1,17 @@
+column_index,column_name,possible_pii,possible_sensitive,manual_review_required
+0,product_id,True,False,True
+1,product_name,False,False,False
+2,category,False,False,False
+3,discounted_price,False,False,False
+4,actual_price,False,False,False
+5,discount_percentage,False,True,True
+6,rating,False,False,False
+7,rating_count,False,False,False
+8,about_product,False,False,False
+9,user_id,True,False,True
+10,user_name,False,False,False
+11,review_id,True,False,True
+12,review_title,False,False,False
+13,review_content,False,False,False
+14,img_link,False,False,False
+15,product_link,False,False,False

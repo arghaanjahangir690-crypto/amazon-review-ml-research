@@ -1,0 +1,425 @@
+
+WHAT IS MY PURPOSE FOR NEXT STAGE
+==================================================
+
+This file is created by Layer 0 of Stage0 Launch Pad.
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Rows:
+1465
+
+Columns:
+16
+
+Purpose:
+The next ML/AI stage must read this file first.
+Its job is to understand the dataset before designing ML problem definitions.
+
+Current Stage:
+Layer 0 has created the control and purpose base.
+
+Next Required Stage:
+Layer 1 should inspect raw file issues such as encoding, broken rows,
+empty lines, null bytes, and file-level problems.
+
+Important:
+Raw data must remain unchanged.
+All analysis, cleaning candidates, metadata, and recommendations must be stored
+inside the stage0-launch-pad folder.
+
+
+==================================================
+LAYER 1 UPDATE: RAW FILE RESCUE
+==================================================
+
+Layer 1 completed on:
+2026-08-23 15:01:05.327611
+
+Layer Status:
+REVIEW_REQUIRED
+
+Selected Encoding:
+utf-8
+
+Empty Lines:
+0
+
+Broken Rows:
+0
+
+Warnings:
+['Very long lines detected.']
+
+Next Required Stage:
+Layer 2 should inspect dataset structure, column names, datatypes,
+null columns, duplicate columns, and sample values.
+
+
+==================================================
+LAYER 2 UPDATE: DATASET STRUCTURE
+==================================================
+
+Layer 2 completed on:
+2026-08-23 15:01:07.308802
+
+Layer Status:
+REVIEW_REQUIRED
+
+Rows:
+1465
+
+Columns:
+16
+
+Duplicate Columns:
+[]
+
+Fully Null Columns:
+[]
+
+Constant Columns:
+[]
+
+ID-Like Columns:
+['product_id', 'user_id', 'review_id', 'img_link', 'product_link']
+
+Possible PII Columns:
+['product_name', 'user_name']
+
+Warnings:
+['Some numeric values appear to be stored as text.', 'ID-like columns detected.', 'Possible PII or sensitive columns detected.']
+
+Next Required Stage:
+Layer 3 should inspect missing values, empty rows, duplicate rows,
+placeholder missing tokens, noisy values, and overall data quality.
+
+
+==================================================
+LAYER 3 UPDATE: DATA QUALITY
+==================================================
+
+Layer 3 completed on:
+2026-08-23 15:01:09.915725
+
+Layer Status:
+GOOD
+
+Quality Score:
+99.99/100
+
+Average Missing Percentage:
+0.0085%
+
+Empty Rows:
+0
+
+Rows With 90%+ Missing:
+0
+
+Duplicate Rows:
+0
+
+Fully Null Columns:
+[]
+
+Mostly Null Columns:
+[]
+
+Warnings:
+['Noisy text values found.']
+
+Next Required Stage:
+Layer 4 should understand column meanings, possible feature roles,
+possible target columns, PII fields, and leakage-risk columns.
+
+
+==================================================
+LAYER 4A UPDATE: BASIC COLUMN SEMANTICS
+==================================================
+
+Layer 4A completed on:
+2026-08-23 15:01:11.443435
+
+Layer Status:
+REVIEW_REQUIRED
+
+Role Counts:
+{'Possible Identifier Column': 3, 'Free Text Column': 7, 'High Cardinality Categorical Column': 4, 'Numeric Stored as Text': 2}
+
+Warnings:
+['Numeric values stored as text found.', 'High-cardinality categorical columns found.']
+
+Next Required Stage:
+Layer 4B should inspect possible target columns, PII fields,
+sensitive columns, leakage-risk columns, and feature usability.
+
+
+==================================================
+LAYER 4B UPDATE: TARGET, PII, LEAKAGE AND ML USABILITY
+==================================================
+
+Layer 4B completed on:
+2026-08-23 15:01:14.040131
+
+Layer Status:
+REVIEW_REQUIRED
+
+Possible Target Columns:
+['rating']
+
+Possible PII Columns:
+['product_id', 'user_id', 'review_id']
+
+Possible Sensitive Columns:
+['discount_percentage']
+
+Possible Leakage-Risk Columns:
+[]
+
+Possible ML Directions:
+['Supervised learning may be possible after target confirmation.', 'Classification problems may be possible.']
+
+Warnings:
+['Possible PII columns detected.', 'Possible sensitive columns detected.', 'Some weak or risky features detected.']
+
+Next Required Stage:
+Layer 5 should generate statistical profile, numeric summary,
+categorical summary, correlation report, and outlier scan.
+
+
+==================================================
+LAYER 5 UPDATE: NUMERIC BASIC STATISTICS
+==================================================
+
+Layer 5 completed on:
+2026-08-23 15:01:16.061170
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Numeric Columns Count:
+0
+
+Numeric Columns:
+[]
+
+Warnings:
+['No numeric columns found.']
+
+Next Required Stage:
+Layer 6 should generate categorical basic statistics.
+
+
+==================================================
+LAYER 6 UPDATE: CATEGORICAL BASIC STATISTICS
+==================================================
+
+Layer 6 completed on:
+2026-08-23 15:01:19.432869
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Categorical/Text Columns Count:
+16
+
+Categorical/Text Columns:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Warnings:
+['High-cardinality categorical/text columns found.']
+
+Next Required Stage:
+Layer 7 should generate distribution summary for all columns.
+
+
+==================================================
+LAYER 7 UPDATE: DISTRIBUTION SUMMARY
+==================================================
+
+Layer 7 completed on:
+2026-08-23 15:01:20.747180
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Constant Columns:
+[]
+
+Binary Columns:
+[]
+
+Low-Cardinality Columns:
+[]
+
+High-Cardinality Columns:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Dominated Columns, 80%+:
+[]
+
+Warnings:
+['High-cardinality columns found; encoding review may be needed.']
+
+Next Required Stage:
+Layer 8 should generate numeric correlation analysis.
+
+
+==================================================
+LAYER 8 UPDATE: CORRELATION ANALYSIS
+==================================================
+
+Layer 8 completed on:
+2026-08-23 15:01:22.154878
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Numeric Columns Count:
+0
+
+High-Correlation Pairs Count:
+0
+
+Warnings:
+['Correlation analysis is not possible because fewer than two numeric columns exist.']
+
+Recommendations:
+['Continue with categorical analysis, outlier checks, and metadata review.']
+
+Next Required Stage:
+Layer 9 should generate outlier analysis for numeric columns.
+
+
+==================================================
+LAYER 9 UPDATE: OUTLIER ANALYSIS
+==================================================
+
+Layer 9 completed on: 2026-08-23 15:01:22.248147
+Layer Status: REVIEW_RECOMMENDED
+Columns With Outliers: []
+Next Required Stage: Layer 10 - Skewness and Kurtosis Analysis.
+
+
+==================================================
+LAYER 10 UPDATE: SKEWNESS AND KURTOSIS
+==================================================
+
+Layer 10 completed on: 2026-08-23 15:01:24.129156
+Layer Status: REVIEW_RECOMMENDED
+Highly Skewed Columns: []
+Heavy-Tailed Columns: []
+Next Required Stage: Layer 11 - Class Balance Analysis.
+
+
+==================================================
+LAYER 10 UPDATE: SKEWNESS AND KURTOSIS
+==================================================
+
+Layer 10 completed on: 2026-08-23 15:01:24.141691
+Layer Status: REVIEW_RECOMMENDED
+Highly Skewed Columns: []
+Heavy-Tailed Columns: []
+Next Required Stage: Layer 11 - Class Balance Analysis.
+
+
+==================================================
+LAYER 11 UPDATE: CLASS BALANCE ANALYSIS
+==================================================
+
+Layer 11 completed on: 2026-08-23 15:01:25.935847
+Layer Status: REVIEW_RECOMMENDED
+Balanced Columns: []
+Imbalanced Columns: []
+Next Required Stage: Layer 12 - Rare Category Analysis.
+
+
+==================================================
+LAYER 11 UPDATE: CLASS BALANCE ANALYSIS
+==================================================
+
+Layer 11 completed on: 2026-08-23 15:01:27.402115
+Layer Status: REVIEW_RECOMMENDED
+Balanced Columns: []
+Imbalanced Columns: []
+Next Required Stage: Layer 12 - Rare Category Analysis.
+
+
+==================================================
+LAYER 12 UPDATE: RARE CATEGORY ANALYSIS
+==================================================
+
+Layer 12 completed on: 2026-08-23 15:01:29.168511
+Layer Status: REVIEW_RECOMMENDED
+Columns With Rare Categories: ['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+Next Required Stage: Layer 13 - Metadata Generator.
+
+
+==================================================
+LAYER 13 UPDATE: METADATA GENERATOR
+==================================================
+
+Layer 13 completed on: 2026-08-23 15:01:31.612164
+
+Metadata files created:
+1. dataset_metadata.json
+2. metadata_questions_for_user.txt
+3. data_dictionary_template.csv
+4. dataset_datasheet_draft.txt
+
+Next Required Stage:
+Layer 14 - Data Dictionary and Datasheet Review.
+
+
+==================================================
+LAYER 14 UPDATE: DATA DICTIONARY AND DATASHEET REVIEW
+==================================================
+
+Layer 14 completed on: 2026-08-23 15:01:33.355169
+Layer Status: REVIEW_REQUIRED
+Next Required Stage: Layer 15 - Governance, PII and Responsible AI Checklist.
+
+
+LAYER 15 UPDATE: GOVERNANCE, PII AND RESPONSIBLE AI
+==================================================
+Completed On: 2026-08-23 15:01:35.068733
+Layer Status: REVIEW_REQUIRED
+Possible PII Columns: ['product_id', 'product_name', 'user_id', 'user_name', 'review_id']
+Possible Sensitive Columns: ['discount_percentage']
+Next Required Stage: Layer 16 - Feature Engineering Suggestions.
+
+
+LAYER 16 COMPLETED
+Next Required Stage: Layer 17 - ML Readiness Score.
+
+
+LAYER 17 COMPLETED
+ML Readiness Score: 75
+Readiness Status: NEEDS_REVIEW_BEFORE_ML
+Next Required Stage: Layer 18 - Possible ML Problem Definitions.
+
+
+LAYER 18 COMPLETED
+Next: Layer 19 - Research Recommendations
+
+
+LAYER 19 COMPLETED
+Next: Layer 20 - Next Stage Prompt Generator
+
+
+LAYER 20 COMPLETED
+Next: Layer 21 - Final Stage0 Summary
+
+
+LAYER 21 COMPLETED
+Stage0 Status: Completed
+Next: Start ML problem definition stage.
+
+
+LAYER 22 COMPLETED
+Self-explainer guide created.

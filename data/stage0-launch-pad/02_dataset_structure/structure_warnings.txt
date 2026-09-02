@@ -1,0 +1,36 @@
+
+STRUCTURE WARNINGS
+==================================================
+
+Layer Status:
+REVIEW_REQUIRED
+
+Warnings:
+['Some numeric values appear to be stored as text.', 'ID-like columns detected.', 'Possible PII or sensitive columns detected.']
+
+Duplicate Columns:
+[]
+
+Unnamed Columns:
+[]
+
+Empty Column Names:
+[]
+
+Fully Null Columns:
+[]
+
+Mostly Null Columns, 80%+:
+[]
+
+Constant Columns:
+[]
+
+Numeric Stored As Text Columns:
+['rating', 'rating_count']
+
+ID-Like Columns:
+['product_id', 'user_id', 'review_id', 'img_link', 'product_link']
+
+Possible PII Columns:
+['product_name', 'user_name']

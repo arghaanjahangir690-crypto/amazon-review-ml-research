@@ -1,0 +1,79 @@
+
+LAYER 1: RAW FILE RESCUE REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:05.323930
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_REQUIRED
+
+File Exists:
+True
+
+File Extension:
+.csv
+
+File Size:
+4.5247 MB
+
+Selected Encoding:
+utf-8
+
+BOM Detected:
+False
+
+Null Bytes Count:
+0
+
+Replacement Character Count:
+0
+
+Control Character Count:
+0
+
+Total Lines:
+1466
+
+Empty Lines:
+0
+
+Whitespace-Only Lines:
+0
+
+Very Long Lines:
+30
+
+Guessed Delimiter:
+,
+
+Expected Columns From Header:
+16
+
+Broken Rows Count:
+0
+
+Warnings:
+['Very long lines detected.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\01_raw_file_rescue\file_inventory.txt
+2. D:\data\stage0-launch-pad\01_raw_file_rescue\encoding_audit.txt
+3. D:\data\stage0-launch-pad\01_raw_file_rescue\delimiter_and_structure_audit.txt
+4. D:\data\stage0-launch-pad\01_raw_file_rescue\broken_rows_report.csv
+5. D:\data\stage0-launch-pad\01_raw_file_rescue\raw_file_rescue_audit.json
+6. D:\data\stage0-launch-pad\01_raw_file_rescue\raw_file_rescue_audit.xml
+
+Meaning:
+Layer 1 checks file-level problems before deeper dataset analysis.
+It detects encoding issues, BOM, null bytes, empty lines, delimiter structure,
+and broken rows.
+
+Important:
+This layer does not modify the raw dataset.
+
+Next Action:
+Run Layer 2 - Dataset Structure.

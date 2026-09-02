@@ -1,0 +1,32 @@
+STAGE0 LAUNCH PAD USER GUIDE
+============================
+
+Purpose:
+Stage0 prepares a dataset before ML or AI work.
+
+Dataset:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Important Files:
+1. D:\data\stage0-launch-pad\What_is_my_purpose_for_next_stage.txt
+2. D:\data\stage0-launch-pad\20_next_stage_prompt\next_stage_ml_prompt.txt
+3. D:\data\stage0-launch-pad\21_final_stage0_summary\layer21_final_summary.txt
+
+How to Use:
+1. Review data quality reports.
+2. Review metadata and governance files.
+3. Confirm target column manually.
+4. Read next_stage_ml_prompt.txt.
+5. Start the next ML problem-definition stage.
+
+Important Rules:
+1. Do not modify raw data directly.
+2. Do not train ML before target confirmation.
+3. Review PII and leakage columns.
+4. Use Stage0 files as guidance, not final truth.
+
+Status:
+Stage0 documentation completed.

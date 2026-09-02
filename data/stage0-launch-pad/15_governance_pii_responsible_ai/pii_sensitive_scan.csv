@@ -1,0 +1,17 @@
+column_name,dtype,possible_pii,possible_sensitive,manual_review_required
+product_id,object,True,False,True
+product_name,object,True,False,True
+category,object,False,False,False
+discounted_price,object,False,False,False
+actual_price,object,False,False,False
+discount_percentage,object,False,True,True
+rating,object,False,False,False
+rating_count,object,False,False,False
+about_product,object,False,False,False
+user_id,object,True,False,True
+user_name,object,True,False,True
+review_id,object,True,False,True
+review_title,object,False,False,False
+review_content,object,False,False,False
+img_link,object,False,False,False
+product_link,object,False,False,False

@@ -1,0 +1,74 @@
+
+LAYER 3: DATA QUALITY REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:09.914987
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+GOOD
+
+Quality Score:
+99.99/100
+
+Rows:
+1465
+
+Columns:
+16
+
+Average Missing Percentage:
+0.0085%
+
+Empty Rows:
+0
+
+Rows With 90% or More Missing Values:
+0
+
+Duplicate Rows:
+0
+
+Fully Null Columns:
+[]
+
+Mostly Null Columns, 80%+:
+[]
+
+Placeholder Values Found:
+0
+
+Warnings:
+['Noisy text values found.']
+
+Recommendations:
+['Trim leading/trailing spaces and standardize category spelling/case where required.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\03_data_quality\data_quality_report.txt
+2. D:\data\stage0-launch-pad\03_data_quality\missing_values_report.csv
+3. D:\data\stage0-launch-pad\03_data_quality\empty_rows_report.csv
+4. D:\data\stage0-launch-pad\03_data_quality\duplicate_rows_report.csv
+5. D:\data\stage0-launch-pad\03_data_quality\noisy_values_report.csv
+6. D:\data\stage0-launch-pad\03_data_quality\placeholder_values_report.csv
+7. D:\data\stage0-launch-pad\03_data_quality\initial_outlier_scan.csv
+8. D:\data\stage0-launch-pad\03_data_quality\quality_scorecard.json
+9. D:\data\stage0-launch-pad\03_data_quality\quality_scorecard.xml
+10. D:\data\stage0-launch-pad\03_data_quality\stage0_cleaned_candidate.csv
+11. D:\data\stage0-launch-pad\03_data_quality\cleaning_recommendations.txt
+
+Meaning:
+Layer 3 checks data quality problems such as missing values, empty rows,
+duplicate rows, null columns, placeholder values, noisy text, and initial outliers.
+
+Important:
+This layer creates a cleaned candidate file but does not modify the original dataset.
+
+Next Action:
+Run Layer 4 - Column Semantics.

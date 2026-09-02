@@ -1,0 +1,43 @@
+{
+    "stage": "Stage 1 Module 3 - ML Possibility Scorer",
+    "created_on": "2026-08-23 15:02:17.873756",
+    "rows": 1465,
+    "columns": 17,
+    "numeric_columns_count": 1,
+    "categorical_columns_count": 16,
+    "missing_percentage": 0.008,
+    "duplicate_rows": 0,
+    "risk_columns_count": 6,
+    "classification_targets": [],
+    "regression_targets": [],
+    "top_3_directions": [
+        {
+            "direction": "Reporting / Dashboard",
+            "score_out_of_100": 87,
+            "suitability_level": "Highly suitable",
+            "possible_target": "No target required",
+            "reason": "Usually useful for tabular datasets even before ML.",
+            "recommended_metrics": "KPIs, summaries, charts",
+            "required_user_confirmation": "Confirm reporting questions."
+        },
+        {
+            "direction": "Research",
+            "score_out_of_100": 82,
+            "suitability_level": "Highly suitable",
+            "possible_target": "Depends on research question",
+            "reason": "Useful if dataset supports questions, patterns, or comparisons.",
+            "recommended_metrics": "Statistical summaries, tests, models",
+            "required_user_confirmation": "Confirm research objective."
+        },
+        {
+            "direction": "Classification",
+            "score_out_of_100": 72,
+            "suitability_level": "Moderately suitable",
+            "possible_target": "['rating', 'rating_count_missing']",
+            "reason": "Suitable when a meaningful low-cardinality target exists.",
+            "recommended_metrics": "F1, Recall, Precision, Accuracy, ROC-AUC",
+            "required_user_confirmation": "Confirm categorical target and class meaning."
+        }
+    ],
+    "next_module": "Stage 1 Module 4 - Interactive User Decision Interview"
+}

@@ -1,0 +1,76 @@
+
+LAYER 2: DATASET STRUCTURE REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:07.306936
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_REQUIRED
+
+Number of Rows:
+1465
+
+Number of Columns:
+16
+
+Duplicate Column Count:
+0
+
+Duplicate Columns:
+[]
+
+Unnamed Columns:
+[]
+
+Empty Column Names:
+[]
+
+Fully Null Columns:
+[]
+
+Mostly Null Columns, 80%+:
+[]
+
+Constant Columns:
+[]
+
+Numeric Stored As Text Columns:
+['rating', 'rating_count']
+
+ID-Like Columns:
+['product_id', 'user_id', 'review_id', 'img_link', 'product_link']
+
+Possible PII Columns:
+['product_name', 'user_name']
+
+Warnings:
+['Some numeric values appear to be stored as text.', 'ID-like columns detected.', 'Possible PII or sensitive columns detected.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\02_dataset_structure\dataset_structure_report.txt
+2. D:\data\stage0-launch-pad\02_dataset_structure\column_list.csv
+3. D:\data\stage0-launch-pad\02_dataset_structure\schema_inferred.json
+4. D:\data\stage0-launch-pad\02_dataset_structure\schema_inferred.xml
+5. D:\data\stage0-launch-pad\02_dataset_structure\sample_rows_preview.csv
+6. D:\data\stage0-launch-pad\02_dataset_structure\column_names.txt
+7. D:\data\stage0-launch-pad\02_dataset_structure\structure_warnings.txt
+
+Meaning:
+Layer 2 studies the basic dataset structure.
+It checks rows, columns, names, datatypes, null columns,
+constant columns, possible ID columns, possible date columns,
+numeric values stored as text, and possible PII columns.
+
+Important:
+This layer does not clean or modify the dataset.
+It only describes the structure.
+
+Next Action:
+Run Layer 3 - Data Quality.

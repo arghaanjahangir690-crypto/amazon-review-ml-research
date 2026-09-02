@@ -1,0 +1,27 @@
+{
+    "stage": "Layer 8 - Correlation Analysis",
+    "created_on": "2026-08-23 15:01:22.152798",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "numeric_columns_count": 0,
+    "numeric_columns": [],
+    "high_correlation_pairs_count": 0,
+    "layer_status": "REVIEW_RECOMMENDED",
+    "strengths": [],
+    "warnings": [
+        "Correlation analysis is not possible because fewer than two numeric columns exist."
+    ],
+    "recommendations": [
+        "Continue with categorical analysis, outlier checks, and metadata review."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\08_correlation_analysis\\layer8_correlation_analysis_report.txt",
+        "correlation_matrix": "D:\\data\\stage0-launch-pad\\08_correlation_analysis\\correlation_matrix.csv",
+        "high_correlation_pairs": "D:\\data\\stage0-launch-pad\\08_correlation_analysis\\high_correlation_pairs.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\08_correlation_analysis\\layer8_correlation_analysis.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\08_correlation_analysis\\layer8_correlation_analysis.xml"
+    },
+    "next_action": "Run Layer 9 - Outlier Analysis"
+}

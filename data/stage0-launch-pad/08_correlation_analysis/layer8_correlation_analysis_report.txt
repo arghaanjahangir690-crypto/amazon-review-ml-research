@@ -1,0 +1,61 @@
+
+LAYER 8: CORRELATION ANALYSIS REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:22.154057
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Rows:
+1465
+
+Columns:
+16
+
+Numeric Columns Count:
+0
+
+Numeric Columns:
+[]
+
+High-Correlation Pairs Count:
+0
+
+Strengths:
+[]
+
+Warnings:
+['Correlation analysis is not possible because fewer than two numeric columns exist.']
+
+Recommendations:
+['Continue with categorical analysis, outlier checks, and metadata review.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\08_correlation_analysis\layer8_correlation_analysis_report.txt
+2. D:\data\stage0-launch-pad\08_correlation_analysis\correlation_matrix.csv
+3. D:\data\stage0-launch-pad\08_correlation_analysis\high_correlation_pairs.csv
+4. D:\data\stage0-launch-pad\08_correlation_analysis\layer8_correlation_analysis.json
+5. D:\data\stage0-launch-pad\08_correlation_analysis\layer8_correlation_analysis.xml
+
+Meaning:
+Layer 8 checks correlation between numeric columns.
+
+It creates:
+1. Correlation matrix
+2. High-correlation pair report
+3. Correlation summary
+
+Important:
+High correlation does not always mean a column should be removed.
+It only means the columns should be reviewed before ML.
+
+Next Action:
+Run Layer 9 - Outlier Analysis.

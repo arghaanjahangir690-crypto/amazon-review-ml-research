@@ -1,0 +1,2 @@
+created_on,dataset_name,original_dataset_path,dataset_for_stage2,rows,columns,numeric_columns_count,categorical_columns_count,average_missing_percentage,duplicate_rows,possible_target_columns,user_preferred_target,system_selected_target_candidate,user_goal_low_weight,base_folder
+2026-08-23 15:10:41.892802,dataset.csv,D:\data\dataset.csv,D:\data\Base_Folder_for_ML_Research_After_Stage_0_and_1\01_Core_Dataset\dataset_for_stage_2.csv,1465,17,1,16,0.008,0,['rating'],rating,rating,Research,D:\data\Base_Folder_for_ML_Research_After_Stage_0_and_1

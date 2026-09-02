@@ -1,0 +1,10 @@
+step,rows,columns
+original_loaded,1465,16
+column_names_cleaned,1465,16
+missing_tokens_normalized,1465,16
+fully_empty_rows_removed,1465,16
+fully_null_columns_removed,1465,16
+missing_flags_added,1465,17
+risk_columns_scanned,1465,17
+stage0_files_indexed,1465,17
+stage1_dataset_saved,1465,17

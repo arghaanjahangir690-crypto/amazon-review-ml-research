@@ -1,0 +1,7 @@
+column_name,risk_type,action
+product_id,possible_id,review_before_ml
+product_name,possible_pii,review_before_ml
+discount_percentage,possible_sensitive,review_before_ml
+user_id,possible_id,review_before_ml
+user_name,possible_pii,review_before_ml
+review_id,possible_id,review_before_ml

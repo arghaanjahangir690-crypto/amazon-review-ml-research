@@ -1,0 +1,2 @@
+dataset_name,rows,columns,ml_readiness_score,readiness_status,missing_percentage,duplicate_rows,duplicate_percentage,numeric_columns_count,categorical_columns_count,fully_null_columns,constant_columns,possible_target_columns,possible_pii_columns,issues
+dataset.csv,1465,16,75,NEEDS_REVIEW_BEFORE_ML,0.0085,0,0.0,0,16,[],[],[],"['product_id', 'product_name', 'user_id', 'user_name', 'review_id']","['No obvious target column found', 'Possible PII columns found']"

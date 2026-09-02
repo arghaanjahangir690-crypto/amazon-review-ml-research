@@ -1,0 +1,17 @@
+original_column,stage1_column,changed
+product_id,product_id,False
+product_name,product_name,False
+category,category,False
+discounted_price,discounted_price,False
+actual_price,actual_price,False
+discount_percentage,discount_percentage,False
+rating,rating,False
+rating_count,rating_count,False
+about_product,about_product,False
+user_id,user_id,False
+user_name,user_name,False
+review_id,review_id,False
+review_title,review_title,False
+review_content,review_content,False
+img_link,img_link,False
+product_link,product_link,False

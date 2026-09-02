@@ -1,0 +1,17 @@
+column_name,missing_count,missing_percentage,non_missing_count,unique_values
+product_id,0,0.0,1465,1351
+product_name,0,0.0,1465,1337
+category,0,0.0,1465,211
+discounted_price,0,0.0,1465,550
+actual_price,0,0.0,1465,449
+discount_percentage,0,0.0,1465,92
+rating,0,0.0,1465,28
+rating_count,2,0.1365,1463,1143
+about_product,0,0.0,1465,1293
+user_id,0,0.0,1465,1194
+user_name,0,0.0,1465,1194
+review_id,0,0.0,1465,1194
+review_title,0,0.0,1465,1194
+review_content,0,0.0,1465,1212
+img_link,0,0.0,1465,1412
+product_link,0,0.0,1465,1465

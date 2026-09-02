@@ -1,0 +1,29 @@
+
+LAYER 13: METADATA GENERATOR REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:31.611317
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Rows: 1465
+Columns: 16
+
+Files Created:
+1. D:\data\stage0-launch-pad\13_metadata_generator\dataset_metadata.json
+2. D:\data\stage0-launch-pad\13_metadata_generator\metadata_questions_for_user.txt
+3. D:\data\stage0-launch-pad\13_metadata_generator\data_dictionary_template.csv
+4. D:\data\stage0-launch-pad\13_metadata_generator\dataset_datasheet_draft.txt
+
+Meaning:
+Layer 13 creates metadata files that help the next ML/AI stage understand
+the dataset purpose, source, column meanings, privacy risks, target column,
+limitations, and intended use.
+
+Important:
+Metadata cannot be fully generated automatically.
+User/domain expert confirmation is required.
+
+Next Action:
+Run Layer 14 - Data Dictionary and Datasheet Review.

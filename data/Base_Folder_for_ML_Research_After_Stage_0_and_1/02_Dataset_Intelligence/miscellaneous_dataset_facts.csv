@@ -1,0 +1,16 @@
+fact_type,column_name,fact,possible_use
+high_cardinality_note,product_id,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,product_name,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,category,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,discounted_price,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,actual_price,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,discount_percentage,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,rating_count,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,about_product,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,user_id,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,user_name,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,review_id,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,review_title,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,review_content,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,img_link,many unique text/category values,may need grouping or special encoding
+high_cardinality_note,product_link,many unique text/category values,may need grouping or special encoding

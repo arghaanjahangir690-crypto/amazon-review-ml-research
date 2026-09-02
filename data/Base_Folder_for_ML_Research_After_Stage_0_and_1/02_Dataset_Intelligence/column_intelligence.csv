@@ -1,0 +1,18 @@
+column_name,dtype,missing_percentage,unique_values,is_numeric,risk_type,stage1_use_decision,feature_score,target_score,risk_score,recommended_use,confidence,reason,requires_user_confirmation
+product_id,object,0.0,1351,False,possible_id,Exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_1351; risk_possible_id,yes
+product_name,object,0.0,1337,False,possible_pii,Review or exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_1337; risk_possible_pii,yes
+category,object,0.0,211,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_211,yes
+discounted_price,object,0.0,550,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_550,yes
+actual_price,object,0.0,449,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_449,yes
+discount_percentage,object,0.0,92,False,possible_sensitive,Review or exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_92; risk_possible_sensitive,yes
+rating,object,0.0,28,False,,Use as target after final confirmation,58,65,0,possible_target,medium,non_numeric; missing_0.0%; unique_28; target_candidate,yes
+rating_count,object,0.1365,1143,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.1365%; unique_1143,yes
+about_product,object,0.0,1293,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_1293,yes
+user_id,object,0.0,1194,False,possible_id,Exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_1194; risk_possible_id,yes
+user_name,object,0.0,1194,False,possible_pii,Exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_1194; risk_possible_pii,yes
+review_id,object,0.0,1194,False,possible_id,Exclude,5,0,60,review_before_use,medium,non_numeric; missing_0.0%; unique_1194; risk_possible_id,yes
+review_title,object,0.0,1194,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_1194,yes
+review_content,object,0.0,1212,False,,Use as feature,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_1212,yes
+img_link,object,0.0,1412,False,,Exclude,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_1412,yes
+product_link,object,0.0,1465,False,,Exclude,40,0,0,review_before_use,medium,non_numeric; missing_0.0%; unique_1465,yes
+rating_count_missing,int64,0.0,2,True,,Use as feature if useful,75,20,0,use_as_feature,medium,numeric; missing_0.0%; unique_2,no

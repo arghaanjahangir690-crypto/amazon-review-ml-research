@@ -1,0 +1,69 @@
+
+LAYER 6: CATEGORICAL BASIC STATISTICS REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:19.432238
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Rows:
+1465
+
+Columns:
+16
+
+Categorical/Text Columns Count:
+16
+
+Categorical/Text Columns:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Low-Cardinality Columns:
+[]
+
+High-Cardinality Columns:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Constant Categorical Columns:
+[]
+
+Strengths:
+['Categorical/text columns are available for frequency analysis.']
+
+Warnings:
+['High-cardinality categorical/text columns found.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\06_categorical_basic_statistics\layer6_categorical_basic_statistics_report.txt
+2. D:\data\stage0-launch-pad\06_categorical_basic_statistics\categorical_basic_statistics.csv
+3. D:\data\stage0-launch-pad\06_categorical_basic_statistics\categorical_top_values.csv
+4. D:\data\stage0-launch-pad\06_categorical_basic_statistics\layer6_categorical_basic_statistics.json
+5. D:\data\stage0-launch-pad\06_categorical_basic_statistics\layer6_categorical_basic_statistics.xml
+
+Meaning:
+Layer 6 creates basic descriptive statistics for categorical and text columns.
+
+It includes:
+1. Count
+2. Missing values
+3. Unique values
+4. Top value
+5. Top value percentage
+6. Low-cardinality flags
+7. High-cardinality flags
+8. Top 10 values per categorical column
+
+Important:
+This layer does not check rare categories, class imbalance, or advanced encoding.
+Those will be handled in later smaller layers.
+
+Next Action:
+Run Layer 7 - Distribution Summary.

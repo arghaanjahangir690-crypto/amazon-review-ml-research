@@ -1,0 +1,23 @@
+LAYER 15: GOVERNANCE, PII AND RESPONSIBLE AI REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:35.068006
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Layer Status: REVIEW_REQUIRED
+Rows: 1465
+Columns: 16
+
+Possible PII Columns: ['product_id', 'product_name', 'user_id', 'user_name', 'review_id']
+Possible Sensitive Columns: ['discount_percentage']
+
+Warnings: ['Possible PII columns detected.', 'Possible sensitive columns detected.']
+Recommendations: ['Mask, remove, anonymize, or approve PII before ML.', 'Review fairness, ethics, and privacy before ML.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\15_governance_pii_responsible_ai\pii_sensitive_scan.csv
+2. D:\data\stage0-launch-pad\15_governance_pii_responsible_ai\responsible_ai_checklist.txt
+3. D:\data\stage0-launch-pad\15_governance_pii_responsible_ai\layer15_summary.json
+
+Next Action: Run Layer 16 - Feature Engineering Suggestions.

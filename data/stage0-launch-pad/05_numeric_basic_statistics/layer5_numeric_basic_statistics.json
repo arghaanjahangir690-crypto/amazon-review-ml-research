@@ -1,0 +1,24 @@
+{
+    "stage": "Layer 5 - Numeric Basic Statistics",
+    "created_on": "2026-08-23 15:01:16.058490",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "numeric_columns_count": 0,
+    "numeric_columns": [],
+    "layer_status": "REVIEW_RECOMMENDED",
+    "strengths": [
+        "Dataset has enough rows for basic numeric summary."
+    ],
+    "warnings": [
+        "No numeric columns found."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\05_numeric_basic_statistics\\layer5_numeric_basic_statistics_report.txt",
+        "numeric_stats_csv": "D:\\data\\stage0-launch-pad\\05_numeric_basic_statistics\\numeric_basic_statistics.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\05_numeric_basic_statistics\\layer5_numeric_basic_statistics.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\05_numeric_basic_statistics\\layer5_numeric_basic_statistics.xml"
+    },
+    "next_action": "Run Layer 6 - Categorical Basic Statistics"
+}

@@ -1,0 +1,60 @@
+
+DATASET DATASHEET DRAFT
+==================================================
+
+Created On:
+2026-08-23 15:01:31.610641
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Rows:
+1465
+
+Columns:
+16
+
+1. Dataset Purpose:
+[User/domain expert must fill]
+
+2. What does one row represent?
+[User/domain expert must fill]
+
+3. Dataset Source:
+[User/domain expert must fill]
+
+4. Collection Method:
+[User/domain expert must fill]
+
+5. Time Period Covered:
+[User/domain expert must fill]
+
+6. Intended Use:
+[User/domain expert must fill]
+
+7. Not Intended Use:
+[User/domain expert must fill]
+
+8. Sensitive or Private Fields:
+[User/domain expert must fill]
+
+9. Known Biases or Limitations:
+[User/domain expert must fill]
+
+10. Target Column for ML:
+[User/domain expert must fill]
+
+11. Columns Not Allowed for ML:
+[User/domain expert must fill]
+
+12. Maintenance / Update Plan:
+[User/domain expert must fill]
+
+Data Dictionary File:
+D:\data\stage0-launch-pad\13_metadata_generator\data_dictionary_template.csv
+
+Important:
+This datasheet is a draft. It must be reviewed before ML/AI implementation.

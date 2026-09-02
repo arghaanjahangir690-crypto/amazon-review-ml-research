@@ -1,0 +1,9 @@
+column_name,stage2_action
+product_id,Exclude
+product_name,Exclude
+discount_percentage,Exclude
+user_id,Exclude
+user_name,Exclude
+review_id,Exclude
+img_link,Exclude
+product_link,Exclude

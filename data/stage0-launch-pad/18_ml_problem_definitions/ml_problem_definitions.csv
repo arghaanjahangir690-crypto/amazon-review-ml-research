@@ -1,0 +1,2 @@
+possible_target,problem_type,reason,recommended_metrics
+Not confirmed,Exploratory Analysis,No clear ML target found,Summary statistics

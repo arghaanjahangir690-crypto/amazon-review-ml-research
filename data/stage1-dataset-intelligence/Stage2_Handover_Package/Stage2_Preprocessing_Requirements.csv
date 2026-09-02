@@ -1,0 +1,9 @@
+column_name,dtype,missing_percentage,unique_values,preprocessing_need
+category,object,0.0,211,Review high cardinality; group or encode carefully.
+discounted_price,object,0.0,550,Review high cardinality; group or encode carefully.
+actual_price,object,0.0,449,Review high cardinality; group or encode carefully.
+rating_count,object,0.1365,1143,Review high cardinality; group or encode carefully.
+about_product,object,0.0,1293,Review high cardinality; group or encode carefully.
+review_title,object,0.0,1194,Review high cardinality; group or encode carefully.
+review_content,object,0.0,1212,Review high cardinality; group or encode carefully.
+rating_count_missing,int64,0.0,2,Impute if missing; scale if model needs it.

@@ -1,0 +1,9 @@
+evidence_type,column_name,evidence_value,inference,severity,ml_impact,recommended_action
+risk_column,product_id,possible_id,review before ML,high,high,exclude or clear by user
+risk_column,product_name,possible_pii,review before ML,high,high,exclude or clear by user
+risk_column,discount_percentage,possible_sensitive,review before ML,high,high,exclude or clear by user
+target_candidate,rating,name/shape suggests target,possible supervised ML,medium,medium,confirm target
+missing_values,rating_count,0.1365% missing,missing strategy needed,medium,medium,create/impute missing strategy
+risk_column,user_id,possible_id,review before ML,high,high,exclude or clear by user
+risk_column,user_name,possible_pii,review before ML,high,high,exclude or clear by user
+risk_column,review_id,possible_id,review before ML,high,high,exclude or clear by user

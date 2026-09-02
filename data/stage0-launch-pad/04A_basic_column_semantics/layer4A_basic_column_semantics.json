@@ -1,0 +1,27 @@
+{
+    "stage": "Layer 4A - Basic Column Semantics",
+    "created_on": "2026-08-23 15:01:11.440975",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "layer_status": "REVIEW_REQUIRED",
+    "role_counts": {
+        "Possible Identifier Column": 3,
+        "Free Text Column": 7,
+        "High Cardinality Categorical Column": 4,
+        "Numeric Stored as Text": 2
+    },
+    "warnings": [
+        "Numeric values stored as text found.",
+        "High-cardinality categorical columns found."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\04A_basic_column_semantics\\layer4A_basic_column_semantics_report.txt",
+        "basic_column_semantics_csv": "D:\\data\\stage0-launch-pad\\04A_basic_column_semantics\\basic_column_semantics.csv",
+        "column_dictionary_draft_csv": "D:\\data\\stage0-launch-pad\\04A_basic_column_semantics\\column_dictionary_draft.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\04A_basic_column_semantics\\layer4A_basic_column_semantics.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\04A_basic_column_semantics\\layer4A_basic_column_semantics.xml"
+    },
+    "next_action": "Run Layer 4B - Target, PII, Leakage and ML Usability Analysis"
+}

@@ -1,0 +1,2 @@
+user_goal,user_direction,user_target,system_validation,evidence,next_action
+Research,classification,rating,supported,Selected target has acceptable target score.,Ask user to reconfirm before Stage2.

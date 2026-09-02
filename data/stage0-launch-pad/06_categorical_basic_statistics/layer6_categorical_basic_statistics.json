@@ -1,0 +1,61 @@
+{
+    "stage": "Layer 6 - Categorical Basic Statistics",
+    "created_on": "2026-08-23 15:01:19.429572",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "categorical_columns_count": 16,
+    "categorical_columns": [
+        "product_id",
+        "product_name",
+        "category",
+        "discounted_price",
+        "actual_price",
+        "discount_percentage",
+        "rating",
+        "rating_count",
+        "about_product",
+        "user_id",
+        "user_name",
+        "review_id",
+        "review_title",
+        "review_content",
+        "img_link",
+        "product_link"
+    ],
+    "low_cardinality_columns": [],
+    "high_cardinality_columns": [
+        "product_id",
+        "product_name",
+        "category",
+        "discounted_price",
+        "actual_price",
+        "discount_percentage",
+        "rating_count",
+        "about_product",
+        "user_id",
+        "user_name",
+        "review_id",
+        "review_title",
+        "review_content",
+        "img_link",
+        "product_link"
+    ],
+    "constant_categorical_columns": [],
+    "layer_status": "REVIEW_RECOMMENDED",
+    "strengths": [
+        "Categorical/text columns are available for frequency analysis."
+    ],
+    "warnings": [
+        "High-cardinality categorical/text columns found."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\06_categorical_basic_statistics\\layer6_categorical_basic_statistics_report.txt",
+        "categorical_stats_csv": "D:\\data\\stage0-launch-pad\\06_categorical_basic_statistics\\categorical_basic_statistics.csv",
+        "top_values_csv": "D:\\data\\stage0-launch-pad\\06_categorical_basic_statistics\\categorical_top_values.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\06_categorical_basic_statistics\\layer6_categorical_basic_statistics.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\06_categorical_basic_statistics\\layer6_categorical_basic_statistics.xml"
+    },
+    "next_action": "Run Layer 7 - Distribution Summary"
+}

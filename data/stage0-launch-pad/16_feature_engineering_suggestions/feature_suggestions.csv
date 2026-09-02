@@ -1,0 +1,18 @@
+column_name,dtype,suggestion_type,suggestion,priority
+product_id,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+product_name,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+category,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+discounted_price,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+actual_price,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+discount_percentage,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+rating,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+rating_count,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+rating_count,object,Missing Flag,Create missing indicator if useful.,Medium
+about_product,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+user_id,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+user_name,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+review_id,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+review_title,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+review_content,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+img_link,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium
+product_link,object,High Cardinality,"Review grouping, rare labels, frequency encoding.",Medium

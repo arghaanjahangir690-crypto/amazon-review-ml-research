@@ -1,0 +1,8 @@
+STAGE2 MODELING PLAN
+Primary direction: Reporting / Dashboard
+Target column: rating
+Allowed features: 8
+Excluded columns: 8
+Review columns: 0
+Do not use review columns until cleared.
+Do not train final model before target confirmation.

@@ -1,0 +1,40 @@
+
+LAYER 9: OUTLIER ANALYSIS REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:22.247710
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Layer Status: REVIEW_RECOMMENDED
+
+Rows: 1465
+Columns: 16
+Numeric Columns Count: 0
+Columns With Outliers: []
+
+Warnings:
+['No numeric columns found.']
+
+Recommendations:
+[]
+
+Files Created:
+1. D:\data\stage0-launch-pad\09_outlier_analysis\outlier_summary_iqr.csv
+2. D:\data\stage0-launch-pad\09_outlier_analysis\outlier_preview_rows.csv
+3. D:\data\stage0-launch-pad\09_outlier_analysis\layer9_outlier_summary.json
+
+Meaning:
+Layer 9 detects numeric outliers using the IQR method.
+
+Formula:
+IQR = Q3 - Q1
+Lower Bound = Q1 - 1.5 × IQR
+Upper Bound = Q3 + 1.5 × IQR
+
+Important:
+Outliers are not always errors. Review them before removing.
+
+Next Action:
+Run Layer 10 - Skewness and Kurtosis Analysis.

@@ -1,0 +1,24 @@
+{
+    "stage": "Layer 10 - Skewness and Kurtosis Analysis",
+    "created_on": "2026-08-23 15:01:24.140983",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "numeric_columns_count": 0,
+    "highly_skewed_columns": [],
+    "heavy_tail_columns": [],
+    "layer_status": "REVIEW_RECOMMENDED",
+    "warnings": [
+        "No numeric columns found."
+    ],
+    "recommendations": [
+        "No major skewness/kurtosis issue detected automatically."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\10_skewness_kurtosis_analysis\\layer10_skewness_kurtosis_report.txt",
+        "skewness_kurtosis_csv": "D:\\data\\stage0-launch-pad\\10_skewness_kurtosis_analysis\\skewness_kurtosis_summary.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\10_skewness_kurtosis_analysis\\layer10_skewness_kurtosis_summary.json"
+    },
+    "next_action": "Run Layer 11 - Class Balance Analysis"
+}

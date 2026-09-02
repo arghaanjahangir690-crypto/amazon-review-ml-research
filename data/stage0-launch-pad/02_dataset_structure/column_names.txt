@@ -1,0 +1,19 @@
+COLUMN NAMES
+==================================================
+
+1. product_id
+2. product_name
+3. category
+4. discounted_price
+5. actual_price
+6. discount_percentage
+7. rating
+8. rating_count
+9. about_product
+10. user_id
+11. user_name
+12. review_id
+13. review_title
+14. review_content
+15. img_link
+16. product_link

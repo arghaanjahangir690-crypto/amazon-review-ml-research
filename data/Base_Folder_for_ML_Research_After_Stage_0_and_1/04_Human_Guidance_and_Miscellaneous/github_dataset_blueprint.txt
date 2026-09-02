@@ -1,0 +1,2 @@
+This folder contains cleaned data, dataset intelligence, ML decision base, limitations, and Stage2 guidance.
+It can be used without opening Stage0 and Stage1 folders.

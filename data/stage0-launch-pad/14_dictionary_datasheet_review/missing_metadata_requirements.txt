@@ -1,0 +1,33 @@
+
+MISSING METADATA REQUIREMENTS
+==================================================
+
+Created On: 2026-08-23 15:01:33.351217
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Rows: 1465
+Columns: 16
+
+The following metadata must be confirmed before ML/AI work:
+
+1. Meaning of each column
+2. Unit of each numeric column, if applicable
+3. Allowed range for numeric columns
+4. Allowed category values for categorical columns
+5. Sensitive or private columns
+6. Columns allowed for ML
+7. Columns not allowed for ML
+8. Real target column
+9. Possible leakage columns
+10. Dataset source
+11. Dataset collection method
+12. Dataset time period
+13. Intended use
+14. Not intended use
+15. Known limitations or bias
+
+Important:
+This layer does not change the dataset.
+It only checks whether the dataset is documented enough for reliable ML/AI use.

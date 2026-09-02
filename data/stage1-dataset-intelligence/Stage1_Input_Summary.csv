@@ -1,0 +1,2 @@
+stage,created_on,stage1_dataset,rows,columns,numeric_columns_count,categorical_columns_count,missing_percentage,duplicate_rows,risk_columns_count,risk_columns,file_check_csv,next_module
+Stage 1 - Module 1 Input Reader,2026-08-23 15:02:14.276653,D:\data\dataset_for_stage_1.csv,1465,17,1,16,0.008,0,6,"['product_id', 'product_name', 'discount_percentage', 'user_id', 'user_name', 'review_id']",D:\data\stage1-dataset-intelligence\Stage1_Input_File_Check.csv,Stage 1 Module 2 - Stage0 Intelligence Interpreter

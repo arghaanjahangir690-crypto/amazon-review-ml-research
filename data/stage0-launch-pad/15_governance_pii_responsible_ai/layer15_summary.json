@@ -1,0 +1,34 @@
+{
+    "stage": "Layer 15 - Governance, PII and Responsible AI",
+    "created_on": "2026-08-23 15:01:35.067356",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "layer_status": "REVIEW_REQUIRED",
+    "possible_pii_columns": [
+        "product_id",
+        "product_name",
+        "user_id",
+        "user_name",
+        "review_id"
+    ],
+    "possible_sensitive_columns": [
+        "discount_percentage"
+    ],
+    "warnings": [
+        "Possible PII columns detected.",
+        "Possible sensitive columns detected."
+    ],
+    "recommendations": [
+        "Mask, remove, anonymize, or approve PII before ML.",
+        "Review fairness, ethics, and privacy before ML."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\15_governance_pii_responsible_ai\\layer15_governance_report.txt",
+        "pii_csv": "D:\\data\\stage0-launch-pad\\15_governance_pii_responsible_ai\\pii_sensitive_scan.csv",
+        "checklist_txt": "D:\\data\\stage0-launch-pad\\15_governance_pii_responsible_ai\\responsible_ai_checklist.txt",
+        "summary_json": "D:\\data\\stage0-launch-pad\\15_governance_pii_responsible_ai\\layer15_summary.json"
+    },
+    "next_action": "Run Layer 16 - Feature Engineering Suggestions"
+}

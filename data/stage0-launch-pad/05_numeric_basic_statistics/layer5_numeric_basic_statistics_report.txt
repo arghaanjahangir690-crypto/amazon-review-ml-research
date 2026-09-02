@@ -1,0 +1,60 @@
+
+LAYER 5: NUMERIC BASIC STATISTICS REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:16.060067
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Rows:
+1465
+
+Columns:
+16
+
+Numeric Columns Count:
+0
+
+Numeric Columns:
+[]
+
+Strengths:
+['Dataset has enough rows for basic numeric summary.']
+
+Warnings:
+['No numeric columns found.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\05_numeric_basic_statistics\layer5_numeric_basic_statistics_report.txt
+2. D:\data\stage0-launch-pad\05_numeric_basic_statistics\numeric_basic_statistics.csv
+3. D:\data\stage0-launch-pad\05_numeric_basic_statistics\layer5_numeric_basic_statistics.json
+4. D:\data\stage0-launch-pad\05_numeric_basic_statistics\layer5_numeric_basic_statistics.xml
+
+Meaning:
+Layer 5 creates basic descriptive statistics for numeric columns.
+
+It includes:
+1. Count
+2. Missing values
+3. Unique values
+4. Mean
+5. Median
+6. Standard deviation
+7. Minimum
+8. Quartiles
+9. Maximum
+
+Important:
+This layer does not check correlation, outliers, skewness, or categorical values.
+Those will be handled in later smaller layers.
+
+Next Action:
+Run Layer 6 - Categorical Basic Statistics.

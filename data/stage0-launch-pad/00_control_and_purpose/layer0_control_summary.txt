@@ -1,0 +1,44 @@
+
+LAYER 0: CONTROL AND PURPOSE SUMMARY
+==================================================
+
+Created On:
+2026-08-23 15:01:03.009663
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Base Folder:
+D:\data
+
+Stage0 Folder:
+D:\data\stage0-launch-pad
+
+Number of Rows:
+1465
+
+Number of Columns:
+16
+
+Purpose:
+This layer creates the control and purpose base for the Stage0 Launch Pad.
+
+This Stage0 Launch Pad will prepare the dataset folder for future ML/AI work by:
+1. Recording dataset identity
+2. Creating a control contract
+3. Creating a next-stage instruction file
+4. Protecting the raw dataset from direct modification
+5. Guiding the next layer-by-layer analysis
+
+Important Rules:
+1. Do not modify the raw dataset directly.
+2. Store all generated files inside stage0-launch-pad.
+3. The next ML/AI stage must read What_is_my_purpose_for_next_stage.txt first.
+4. User/domain expert must confirm target column, metadata, and sensitive fields.
+5. Stage0 reports are guidance, not final business or medical truth.
+
+Next Action:
+Run Layer 1 - Raw File Rescue.

@@ -1,0 +1,70 @@
+
+LAYER 4B: TARGET, PII, LEAKAGE AND ML USABILITY REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:14.039651
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_REQUIRED
+
+Rows:
+1465
+
+Columns:
+16
+
+Possible Target Columns:
+['rating']
+
+Possible PII Columns:
+['product_id', 'user_id', 'review_id']
+
+Possible Sensitive Columns:
+['discount_percentage']
+
+Possible Leakage-Risk Columns:
+[]
+
+Good Candidate Feature Columns:
+['product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating', 'rating_count', 'about_product', 'user_name', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Review Feature Columns:
+[]
+
+Weak or Risky Feature Columns:
+['product_id', 'user_id', 'review_id']
+
+Possible ML Directions:
+['Supervised learning may be possible after target confirmation.', 'Classification problems may be possible.']
+
+Warnings:
+['Possible PII columns detected.', 'Possible sensitive columns detected.', 'Some weak or risky features detected.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\layer4B_target_pii_leakage_ml_usability_report.txt
+2. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\target_candidate_report.csv
+3. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\pii_sensitive_scan.csv
+4. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\leakage_risk_report.csv
+5. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\feature_usability_report.csv
+6. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\ml_problem_possibility_report.txt
+7. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\layer4B_recommendations.txt
+8. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\layer4B_summary.json
+9. D:\data\stage0-launch-pad\04B_target_pii_leakage_ml_usability\layer4B_summary.xml
+
+Meaning:
+Layer 4B checks possible ML target columns, PII/sensitive columns,
+leakage-risk columns, feature usability, and possible ML problem directions.
+
+Important:
+This layer gives automatic suggestions only.
+User/domain expert confirmation is required before ML.
+
+Next Action:
+Run Layer 5 - Statistical Profile.

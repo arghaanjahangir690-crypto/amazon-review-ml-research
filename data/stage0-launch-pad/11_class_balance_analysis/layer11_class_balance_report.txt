@@ -1,0 +1,40 @@
+
+LAYER 11: CLASS BALANCE ANALYSIS REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:27.401657
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Layer Status: REVIEW_RECOMMENDED
+
+Rows: 1465
+Columns: 16
+
+Balanced Columns:
+[]
+
+Imbalanced Columns:
+[]
+
+Warnings:
+['No class-balance candidates found.']
+
+Recommendations:
+['No serious class imbalance detected automatically.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\11_class_balance_analysis\class_balance_report.csv
+2. D:\data\stage0-launch-pad\11_class_balance_analysis\layer11_class_balance_summary.json
+
+Meaning:
+Layer 11 checks low-cardinality columns with 2 to 20 unique values.
+These columns may be possible classification targets or grouping variables.
+
+Important:
+If an imbalanced column is used as target, accuracy alone may be misleading.
+Use better metrics such as precision, recall, F1-score, ROC-AUC, or balanced accuracy.
+
+Next Action:
+Run Layer 12 - Rare Category Analysis.

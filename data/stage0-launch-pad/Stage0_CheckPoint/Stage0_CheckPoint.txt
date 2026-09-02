@@ -1,0 +1,76 @@
+﻿STAGE0 CHECKPOINT
+Created: 2026-08-23 15:01:46.693420
+Dataset: dataset.csv
+
+Layer 0: Control and Purpose
+Purpose: Creates main purpose and control files
+
+Layer 1: Raw File Rescue
+Purpose: Checks encoding delimiter empty lines broken rows
+
+Layer 2: Dataset Structure
+Purpose: Checks rows columns datatypes null columns sample values
+
+Layer 3: Data Quality
+Purpose: Checks missing duplicates empty rows noisy values
+
+Layer 4A: Basic Column Semantics
+Purpose: Finds numeric categorical date text ID like columns
+
+Layer 4B: Target PII Leakage ML Usability
+Purpose: Finds target PII leakage and usable features
+
+Layer 5: Numeric Basic Statistics
+Purpose: Creates numeric statistics
+
+Layer 6: Categorical Basic Statistics
+Purpose: Creates categorical statistics
+
+Layer 7: Distribution Summary
+Purpose: Checks unique dominant cardinality patterns
+
+Layer 8: Correlation Analysis
+Purpose: Checks numeric correlations
+
+Layer 9: Outlier Analysis
+Purpose: Finds numeric outliers using IQR
+
+Layer 10: Skewness and Kurtosis
+Purpose: Checks numeric distribution shape
+
+Layer 11: Class Balance Analysis
+Purpose: Checks low cardinality class balance
+
+Layer 12: Rare Category Analysis
+Purpose: Finds rare categorical values
+
+Layer 13: Metadata Generator
+Purpose: Creates metadata dictionary datasheet draft
+
+Layer 14: Dictionary Datasheet Review
+Purpose: Checks missing documentation
+
+Layer 15: Governance PII Responsible AI
+Purpose: Checks privacy sensitive fields AI risk
+
+Layer 16: Feature Engineering Suggestions
+Purpose: Suggests possible new features
+
+Layer 17: ML Readiness Score
+Purpose: Scores dataset readiness for ML
+
+Layer 18: ML Problem Definitions
+Purpose: Suggests ML problem types
+
+Layer 19: Research Recommendations
+Purpose: Suggests research questions
+
+Layer 20: Next Stage Prompt Generator
+Purpose: Creates next ML prompt
+
+Layer 21: Final Stage0 Summary
+Purpose: Creates final index and summary
+
+Layer 22: Self Explainer
+Purpose: Creates user guide
+

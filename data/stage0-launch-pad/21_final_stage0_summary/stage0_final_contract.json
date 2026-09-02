@@ -1,0 +1,14 @@
+{
+    "stage": "Layer 21 - Final Stage0 Summary",
+    "created_on": "2026-08-23 15:01:43.419146",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "stage0_path": "D:\\data\\stage0-launch-pad",
+    "rows": 1465,
+    "columns": 16,
+    "numeric_columns_count": 0,
+    "categorical_columns_count": 16,
+    "stage0_files_count": 106,
+    "stage0_status": "Completed",
+    "next_recommended_action": "Use next_stage_ml_prompt.txt for ML problem definition."
+}

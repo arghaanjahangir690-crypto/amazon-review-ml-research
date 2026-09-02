@@ -1,0 +1,19 @@
+{
+    "created_on": "2026-08-23 15:10:41.892802",
+    "dataset_name": "dataset.csv",
+    "original_dataset_path": "D:\\data\\dataset.csv",
+    "dataset_for_stage2": "D:\\data\\Base_Folder_for_ML_Research_After_Stage_0_and_1\\01_Core_Dataset\\dataset_for_stage_2.csv",
+    "rows": 1465,
+    "columns": 17,
+    "numeric_columns_count": 1,
+    "categorical_columns_count": 16,
+    "average_missing_percentage": 0.008,
+    "duplicate_rows": 0,
+    "possible_target_columns": [
+        "rating"
+    ],
+    "user_preferred_target": "rating",
+    "system_selected_target_candidate": "rating",
+    "user_goal_low_weight": "Research",
+    "base_folder": "D:\\data\\Base_Folder_for_ML_Research_After_Stage_0_and_1"
+}

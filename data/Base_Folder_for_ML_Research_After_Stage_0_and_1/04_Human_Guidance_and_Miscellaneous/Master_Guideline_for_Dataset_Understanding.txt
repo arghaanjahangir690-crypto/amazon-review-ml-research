@@ -1,0 +1,18 @@
+MASTER GUIDELINE FOR DATASET UNDERSTANDING
+Dataset: dataset.csv
+Rows: 1465
+Columns: 17
+Numeric columns: 1
+Categorical columns: 16
+Average missing percentage: 0.008
+Duplicate rows: 0
+Best directions: ['Reporting / Dashboard', 'Research', 'Classification']
+Stage2 status: NO_GO
+System target candidate: rating
+Allowed features: 1
+Review columns: 15
+Excluded columns: 0
+Main blockers: ['Too few allowed features.', 'Some columns require review.']
+Rule: Dataset facts and statistical evidence have higher weight than user preference.
+Rule: User should reconfirm target and columns before Stage2 modeling.
+This folder is designed to work independently of Stage0 and Stage1 folders.

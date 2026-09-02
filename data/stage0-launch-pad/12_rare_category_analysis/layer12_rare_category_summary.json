@@ -1,0 +1,42 @@
+{
+    "stage": "Layer 12 - Rare Category Analysis",
+    "created_on": "2026-08-23 15:01:29.167306",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "categorical_columns_count": 16,
+    "columns_with_rare_categories": [
+        "product_id",
+        "product_name",
+        "category",
+        "discounted_price",
+        "actual_price",
+        "discount_percentage",
+        "rating",
+        "rating_count",
+        "about_product",
+        "user_id",
+        "user_name",
+        "review_id",
+        "review_title",
+        "review_content",
+        "img_link",
+        "product_link"
+    ],
+    "rare_category_threshold": "less than 1%",
+    "layer_status": "REVIEW_RECOMMENDED",
+    "warnings": [
+        "Rare categories detected in categorical columns."
+    ],
+    "recommendations": [
+        "Consider grouping rare categories into 'Other' before ML.",
+        "Avoid one-hot encoding too many rare values without review."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\layer12_rare_category_report.txt",
+        "rare_category_csv": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\rare_category_report.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\12_rare_category_analysis\\layer12_rare_category_summary.json"
+    },
+    "next_action": "Run Layer 13 - Metadata Generator"
+}

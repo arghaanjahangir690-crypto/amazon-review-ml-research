@@ -1,0 +1,17 @@
+column_index,column_name,dtype,missing_percentage,unique_values,possible_date,feature_usability,feature_usability_score,reason
+1,product_name,object,0.0,1337,False,Good Candidate Feature,100,no major automatic usability issue detected
+2,category,object,0.0,211,False,Good Candidate Feature,100,no major automatic usability issue detected
+3,discounted_price,object,0.0,550,False,Good Candidate Feature,100,no major automatic usability issue detected
+4,actual_price,object,0.0,449,False,Good Candidate Feature,100,no major automatic usability issue detected
+5,discount_percentage,object,0.0,92,False,Good Candidate Feature,100,no major automatic usability issue detected
+6,rating,object,0.0,28,False,Good Candidate Feature,100,no major automatic usability issue detected
+7,rating_count,object,0.1365,1143,False,Good Candidate Feature,100,no major automatic usability issue detected
+8,about_product,object,0.0,1293,False,Good Candidate Feature,100,no major automatic usability issue detected
+10,user_name,object,0.0,1194,False,Good Candidate Feature,100,no major automatic usability issue detected
+12,review_title,object,0.0,1194,False,Good Candidate Feature,100,no major automatic usability issue detected
+13,review_content,object,0.0,1212,False,Good Candidate Feature,100,no major automatic usability issue detected
+14,img_link,object,0.0,1412,False,Good Candidate Feature,75,very high cardinality
+15,product_link,object,0.0,1465,False,Good Candidate Feature,75,very high cardinality
+0,product_id,object,0.0,1351,False,Weak or Risky Feature,30,PII or identifier risk
+9,user_id,object,0.0,1194,False,Weak or Risky Feature,30,PII or identifier risk
+11,review_id,object,0.0,1194,False,Weak or Risky Feature,30,PII or identifier risk

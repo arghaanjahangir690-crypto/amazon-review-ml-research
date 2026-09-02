@@ -1,0 +1,25 @@
+LAYER 17: ML READINESS SCORE
+===================================
+
+Created On: 2026-08-23 15:01:37.741448
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+Rows: 1465
+Columns: 16
+ML Readiness Score: 75
+Readiness Status: NEEDS_REVIEW_BEFORE_ML
+
+Issues:
+['No obvious target column found', 'Possible PII columns found']
+
+Possible Target Columns:
+[]
+
+Possible PII Columns:
+['product_id', 'product_name', 'user_id', 'user_name', 'review_id']
+
+Files Created:
+1. D:\data\stage0-launch-pad\17_ml_readiness_score\ml_readiness_score.csv
+2. D:\data\stage0-launch-pad\17_ml_readiness_score\layer17_summary.json
+
+Next Action: Run Layer 18 - Possible ML Problem Definitions.

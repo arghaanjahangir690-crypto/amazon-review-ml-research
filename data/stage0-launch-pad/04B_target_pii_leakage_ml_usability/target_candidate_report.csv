@@ -1,0 +1,17 @@
+column_index,column_name,target_score,possible_ml_type,missing_percentage,unique_values,reason
+6,rating,5,Classification,0.0,28,acceptable missing percentage; classification target possible
+1,product_name,2,Needs Review,0.0,1337,acceptable missing percentage
+2,category,2,Needs Review,0.0,211,acceptable missing percentage
+3,discounted_price,2,Needs Review,0.0,550,acceptable missing percentage
+4,actual_price,2,Needs Review,0.0,449,acceptable missing percentage
+5,discount_percentage,2,Needs Review,0.0,92,acceptable missing percentage
+7,rating_count,2,Needs Review,0.1365,1143,acceptable missing percentage
+8,about_product,2,Needs Review,0.0,1293,acceptable missing percentage
+10,user_name,2,Needs Review,0.0,1194,acceptable missing percentage
+12,review_title,2,Needs Review,0.0,1194,acceptable missing percentage
+13,review_content,2,Needs Review,0.0,1212,acceptable missing percentage
+14,img_link,2,Needs Review,0.0,1412,acceptable missing percentage
+15,product_link,2,Needs Review,0.0,1465,acceptable missing percentage
+0,product_id,-6,Needs Review,0.0,1351,acceptable missing percentage; PII/identifier is not suitable as target
+9,user_id,-6,Needs Review,0.0,1194,acceptable missing percentage; PII/identifier is not suitable as target
+11,review_id,-6,Needs Review,0.0,1194,acceptable missing percentage; PII/identifier is not suitable as target

@@ -1,0 +1,23 @@
+{
+    "stage": "Layer 11 - Class Balance Analysis",
+    "created_on": "2026-08-23 15:01:27.401305",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "balanced_columns": [],
+    "imbalanced_columns": [],
+    "layer_status": "REVIEW_RECOMMENDED",
+    "warnings": [
+        "No class-balance candidates found."
+    ],
+    "recommendations": [
+        "No serious class imbalance detected automatically."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\11_class_balance_analysis\\layer11_class_balance_report.txt",
+        "class_balance_csv": "D:\\data\\stage0-launch-pad\\11_class_balance_analysis\\class_balance_report.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\11_class_balance_analysis\\layer11_class_balance_summary.json"
+    },
+    "next_action": "Run Layer 12 - Rare Category Analysis"
+}

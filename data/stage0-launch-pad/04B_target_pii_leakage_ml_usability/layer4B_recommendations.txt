@@ -1,0 +1,11 @@
+LAYER 4B RECOMMENDATIONS
+==================================================
+
+1. Confirm the real target column before ML.
+2. Do not use PII columns as features unless anonymized and approved.
+3. Review sensitive columns for ethical and legal concerns.
+4. Review leakage-risk columns before using them as input features.
+5. Use Good Candidate Feature columns first for early baseline modeling.
+6. Use Review Feature columns only after human inspection.
+7. Avoid Weak or Risky Feature columns unless there is a strong reason.
+8. Read Layer 3 data quality report before ML.

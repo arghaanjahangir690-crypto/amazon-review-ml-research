@@ -1,0 +1,38 @@
+
+LAYER 12: RARE CATEGORY ANALYSIS REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:29.168001
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Layer Status: REVIEW_RECOMMENDED
+
+Rows: 1465
+Columns: 16
+
+Categorical Columns Count: 16
+
+Columns With Rare Categories:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Warnings:
+['Rare categories detected in categorical columns.']
+
+Recommendations:
+["Consider grouping rare categories into 'Other' before ML.", 'Avoid one-hot encoding too many rare values without review.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\12_rare_category_analysis\rare_category_report.csv
+2. D:\data\stage0-launch-pad\12_rare_category_analysis\layer12_rare_category_summary.json
+
+Meaning:
+Layer 12 checks categorical values that appear in less than 1% of records.
+
+Important:
+Rare categories may create weak ML signals or too many encoded columns.
+Review them before encoding.
+
+Next Action:
+Run Layer 13 - Metadata Generator.

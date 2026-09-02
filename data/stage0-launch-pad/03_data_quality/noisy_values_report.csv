@@ -1,0 +1,17 @@
+column_name,leading_trailing_space_count,multiple_space_count,replacement_character_count,strange_character_count,original_unique_values,case_normalized_unique_values,possible_case_inconsistency
+product_id,0,0,0,0,1351,1351,False
+product_name,0,11,0,359,1337,1337,False
+category,0,0,0,1465,211,211,False
+discounted_price,0,0,0,1465,550,550,False
+actual_price,0,0,0,1465,449,449,False
+discount_percentage,0,0,0,0,92,92,False
+rating,0,0,0,1,28,28,False
+rating_count,0,0,0,0,1143,1143,False
+about_product,0,4,0,1434,1293,1290,True
+user_id,0,0,0,0,1194,1194,False
+user_name,0,28,0,58,1194,1194,False
+review_id,0,0,0,0,1194,1194,False
+review_title,0,89,0,856,1194,1194,False
+review_content,0,541,0,1303,1212,1212,False
+img_link,0,0,0,0,1412,1412,False
+product_link,0,0,0,1465,1465,1465,False

@@ -1,0 +1,17 @@
+column_index,column_name,current_dtype,basic_semantic_role,meaning_to_be_filled_by_user,unit_if_any,allowed_values_or_range,notes
+0,product_id,object,Possible Identifier Column,,,,Auto-generated draft. User/domain expert must confirm.
+1,product_name,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+2,category,object,High Cardinality Categorical Column,,,,Auto-generated draft. User/domain expert must confirm.
+3,discounted_price,object,High Cardinality Categorical Column,,,,Auto-generated draft. User/domain expert must confirm.
+4,actual_price,object,High Cardinality Categorical Column,,,,Auto-generated draft. User/domain expert must confirm.
+5,discount_percentage,object,High Cardinality Categorical Column,,,,Auto-generated draft. User/domain expert must confirm.
+6,rating,object,Numeric Stored as Text,,,,Auto-generated draft. User/domain expert must confirm.
+7,rating_count,object,Numeric Stored as Text,,,,Auto-generated draft. User/domain expert must confirm.
+8,about_product,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+9,user_id,object,Possible Identifier Column,,,,Auto-generated draft. User/domain expert must confirm.
+10,user_name,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+11,review_id,object,Possible Identifier Column,,,,Auto-generated draft. User/domain expert must confirm.
+12,review_title,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+13,review_content,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+14,img_link,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.
+15,product_link,object,Free Text Column,,,,Auto-generated draft. User/domain expert must confirm.

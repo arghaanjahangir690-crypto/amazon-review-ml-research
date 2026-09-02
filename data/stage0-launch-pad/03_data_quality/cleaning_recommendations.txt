@@ -1,0 +1,12 @@
+CLEANING RECOMMENDATIONS
+==================================================
+
+1. Trim leading/trailing spaces and standardize category spelling/case where required.
+
+
+Important:
+This layer creates a cleaned candidate file only.
+It does not modify the original raw dataset.
+
+Cleaned Candidate File:
+D:\data\stage0-launch-pad\03_data_quality\stage0_cleaned_candidate.csv

@@ -1,0 +1,45 @@
+
+LAYER 10: SKEWNESS AND KURTOSIS ANALYSIS REPORT
+==================================================
+
+Created On: 2026-08-23 15:01:24.141320
+
+Dataset Name: dataset.csv
+Dataset Path: D:\data\dataset.csv
+
+Layer Status: REVIEW_RECOMMENDED
+
+Rows: 1465
+Columns: 16
+Numeric Columns Count: 0
+
+Highly Skewed Columns:
+[]
+
+Heavy-Tailed Columns:
+[]
+
+Warnings:
+['No numeric columns found.']
+
+Recommendations:
+['No major skewness/kurtosis issue detected automatically.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\10_skewness_kurtosis_analysis\skewness_kurtosis_summary.csv
+2. D:\data\stage0-launch-pad\10_skewness_kurtosis_analysis\layer10_skewness_kurtosis_summary.json
+
+Meaning:
+Layer 10 checks the shape of numeric distributions.
+
+Skewness:
+Shows whether values are balanced, right-skewed, or left-skewed.
+
+Kurtosis:
+Shows whether the column has heavy tails or extreme values.
+
+Important:
+Do not transform columns automatically. Confirm meaning first.
+
+Next Action:
+Run Layer 11 - Class Balance Analysis.

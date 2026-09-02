@@ -1,0 +1,23 @@
+{
+    "stage": "Stage 1 Module 2 - Stage0 Intelligence Interpreter",
+    "created_on": "2026-08-23 15:02:16.596670",
+    "rows": 1465,
+    "columns": 17,
+    "numeric_columns_count": 1,
+    "categorical_columns_count": 16,
+    "missing_percentage": 0.008,
+    "duplicate_rows": 0,
+    "possible_target_columns": [],
+    "risk_columns_count": 6,
+    "risk_columns": [
+        "product_id",
+        "product_name",
+        "discount_percentage",
+        "user_id",
+        "user_name",
+        "review_id"
+    ],
+    "overall_stage0_foundation_score": 68.12,
+    "overall_stage0_foundation_level": "Moderate Stage0 foundation",
+    "next_module": "Stage 1 Module 3 - ML Possibility Scorer"
+}

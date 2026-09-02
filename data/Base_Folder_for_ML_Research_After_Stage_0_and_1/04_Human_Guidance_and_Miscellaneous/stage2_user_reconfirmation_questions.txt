@@ -1,0 +1,5 @@
+Confirm final ML direction.
+Confirm final target column if supervised ML is selected.
+Confirm whether review columns may be used.
+Confirm whether excluded columns must stay excluded.
+Confirm whether reporting/research is preferred over model training.

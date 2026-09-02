@@ -1,0 +1,23 @@
+
+ML PROBLEM POSSIBILITY REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:14.037396
+
+Possible Target Columns:
+['rating']
+
+Possible ML Directions:
+['Supervised learning may be possible after target confirmation.', 'Classification problems may be possible.']
+
+Important:
+These are automatic suggestions only.
+The real ML objective must be confirmed by user/domain expert.
+
+Do Not Start ML Until:
+1. Target column is confirmed.
+2. PII columns are reviewed.
+3. Leakage-risk columns are reviewed.
+4. Metadata questions are answered.
+5. Data quality issues from Layer 3 are reviewed.

@@ -1,0 +1,13 @@
+RESPONSIBLE AI CHECKLIST
+========================
+
+1. Confirm dataset ownership.
+2. Confirm permission to use data.
+3. Review PII columns.
+4. Review sensitive columns.
+5. Remove or mask restricted fields.
+6. Confirm target column is ethical.
+7. Check leakage-risk columns.
+8. Document limitations and bias.
+9. Use human review for high-risk decisions.
+10. Do not start ML until governance review is complete.

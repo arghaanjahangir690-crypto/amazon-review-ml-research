@@ -1,0 +1,7 @@
+STAGE2 NEXT PROMPT
+Load dataset_for_stage_1.csv.
+Use Stage2_Allowed_Features.csv.
+Exclude columns in Stage2_Excluded_Columns.csv.
+Apply preprocessing from Stage2_Preprocessing_Requirements.csv.
+Build baseline model only for confirmed direction and target.
+Report metrics, limitations, and risks.

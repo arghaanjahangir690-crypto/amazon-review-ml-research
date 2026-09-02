@@ -1,0 +1,42 @@
+{
+    "stage": "Layer 7 - Distribution Summary",
+    "created_on": "2026-08-23 15:01:20.743601",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "layer_status": "REVIEW_RECOMMENDED",
+    "constant_columns": [],
+    "binary_columns": [],
+    "low_cardinality_columns": [],
+    "high_cardinality_columns": [
+        "product_id",
+        "product_name",
+        "category",
+        "discounted_price",
+        "actual_price",
+        "discount_percentage",
+        "rating_count",
+        "about_product",
+        "user_id",
+        "user_name",
+        "review_id",
+        "review_title",
+        "review_content",
+        "img_link",
+        "product_link"
+    ],
+    "dominated_columns_80_percent_plus": [],
+    "strengths": [],
+    "warnings": [
+        "High-cardinality columns found; encoding review may be needed."
+    ],
+    "files_created": {
+        "report_txt": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary_report.txt",
+        "distribution_csv": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\distribution_summary.csv",
+        "dominance_csv": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\dominant_value_report.csv",
+        "summary_json": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary.json",
+        "summary_xml": "D:\\data\\stage0-launch-pad\\07_distribution_summary\\layer7_distribution_summary.xml"
+    },
+    "next_action": "Run Layer 8 - Correlation Analysis"
+}

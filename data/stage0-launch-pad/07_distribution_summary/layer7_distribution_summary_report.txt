@@ -1,0 +1,69 @@
+
+LAYER 7: DISTRIBUTION SUMMARY REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:20.745230
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_RECOMMENDED
+
+Rows:
+1465
+
+Columns:
+16
+
+Constant Columns:
+[]
+
+Binary Columns:
+[]
+
+Low-Cardinality Columns:
+[]
+
+High-Cardinality Columns:
+['product_id', 'product_name', 'category', 'discounted_price', 'actual_price', 'discount_percentage', 'rating_count', 'about_product', 'user_id', 'user_name', 'review_id', 'review_title', 'review_content', 'img_link', 'product_link']
+
+Dominated Columns, 80%+:
+[]
+
+Strengths:
+[]
+
+Warnings:
+['High-cardinality columns found; encoding review may be needed.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary_report.txt
+2. D:\data\stage0-launch-pad\07_distribution_summary\distribution_summary.csv
+3. D:\data\stage0-launch-pad\07_distribution_summary\dominant_value_report.csv
+4. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary.json
+5. D:\data\stage0-launch-pad\07_distribution_summary\layer7_distribution_summary.xml
+
+Meaning:
+Layer 7 studies the distribution pattern of every column.
+
+It checks:
+1. Missing percentage
+2. Unique values
+3. Dominant value
+4. Constant columns
+5. Binary columns
+6. Low-cardinality columns
+7. High-cardinality columns
+8. Columns dominated by one value
+
+Important:
+This layer does not calculate correlation or outliers.
+Those will be handled in later smaller layers.
+
+Next Action:
+Run Layer 8 - Correlation Analysis.

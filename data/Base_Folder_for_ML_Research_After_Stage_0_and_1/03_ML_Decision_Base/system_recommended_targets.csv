@@ -1,0 +1,2 @@
+column_name,dtype,missing_percentage,unique_values,is_numeric,risk_type,stage1_use_decision,feature_score,target_score,risk_score,recommended_use,confidence,reason,requires_user_confirmation
+rating,object,0.0,28,False,,Use as target after final confirmation,58,65,0,possible_target,medium,non_numeric; missing_0.0%; unique_28; target_candidate,yes

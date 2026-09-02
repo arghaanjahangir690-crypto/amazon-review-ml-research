@@ -1,0 +1,25 @@
+﻿stage_no,stage_name,purpose
+0,Control and Purpose,Creates main purpose and control files
+1,Raw File Rescue,Checks encoding delimiter empty lines broken rows
+2,Dataset Structure,Checks rows columns datatypes null columns sample values
+3,Data Quality,Checks missing duplicates empty rows noisy values
+4A,Basic Column Semantics,Finds numeric categorical date text ID like columns
+4B,Target PII Leakage ML Usability,Finds target PII leakage and usable features
+5,Numeric Basic Statistics,Creates numeric statistics
+6,Categorical Basic Statistics,Creates categorical statistics
+7,Distribution Summary,Checks unique dominant cardinality patterns
+8,Correlation Analysis,Checks numeric correlations
+9,Outlier Analysis,Finds numeric outliers using IQR
+10,Skewness and Kurtosis,Checks numeric distribution shape
+11,Class Balance Analysis,Checks low cardinality class balance
+12,Rare Category Analysis,Finds rare categorical values
+13,Metadata Generator,Creates metadata dictionary datasheet draft
+14,Dictionary Datasheet Review,Checks missing documentation
+15,Governance PII Responsible AI,Checks privacy sensitive fields AI risk
+16,Feature Engineering Suggestions,Suggests possible new features
+17,ML Readiness Score,Scores dataset readiness for ML
+18,ML Problem Definitions,Suggests ML problem types
+19,Research Recommendations,Suggests research questions
+20,Next Stage Prompt Generator,Creates next ML prompt
+21,Final Stage0 Summary,Creates final index and summary
+22,Self Explainer,Creates user guide

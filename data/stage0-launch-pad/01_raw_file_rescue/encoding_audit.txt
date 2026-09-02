@@ -1,0 +1,27 @@
+
+ENCODING AUDIT
+==================================================
+
+Selected Encoding:
+utf-8
+
+BOM Detected:
+False
+
+Null Bytes Count:
+0
+
+Replacement Character Count:
+0
+
+Control Character Count:
+0
+
+Encoding Attempts:
+[
+    {
+        "encoding": "utf-8",
+        "status": "success",
+        "error": ""
+    }
+]

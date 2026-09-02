@@ -1,0 +1,4 @@
+direction,score_out_of_100,suitability_level,possible_target,reason,recommended_metrics,required_user_confirmation
+Reporting / Dashboard,87,Highly suitable,No target required,Usually useful for tabular datasets even before ML.,"KPIs, summaries, charts",Confirm reporting questions.
+Research,82,Highly suitable,Depends on research question,"Useful if dataset supports questions, patterns, or comparisons.","Statistical summaries, tests, models",Confirm research objective.
+Classification,72,Moderately suitable,"['rating', 'rating_count_missing']",Suitable when a meaningful low-cardinality target exists.,"F1, Recall, Precision, Accuracy, ROC-AUC",Confirm categorical target and class meaning.

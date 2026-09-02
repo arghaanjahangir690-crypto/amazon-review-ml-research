@@ -1,0 +1,8 @@
+limitation_area,limitation,recommended_protection
+column_meaning,Column meanings are not fully known automatically.,User/domain confirmation required.
+target,Target column suggestions are heuristic.,Reconfirm target before modeling.
+risk,PII/leakage detection is name-based.,Review risk columns manually.
+outliers,Outliers may be valid values.,Do not remove automatically.
+missing_values,Missingness may have real meaning.,Choose strategy carefully.
+correlation,Correlation does not prove causation.,Avoid causal claims without design.
+user_feedback,User preferences are treated as low-weight evidence.,Verify again before Stage2.

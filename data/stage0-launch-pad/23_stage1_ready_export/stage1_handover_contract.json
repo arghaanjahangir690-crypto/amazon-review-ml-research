@@ -1,0 +1,22 @@
+{
+    "stage": "Layer 23 - Stage1 Ready Export",
+    "created_on": "2026-08-23 15:01:48.097788",
+    "original_dataset": "D:\\data\\dataset.csv",
+    "stage1_dataset": "D:\\data\\dataset_for_stage_1.csv",
+    "original_rows": 1465,
+    "original_columns": 16,
+    "stage1_rows": 1465,
+    "stage1_columns": 17,
+    "removed_empty_rows": 0,
+    "removed_fully_null_columns": [],
+    "missing_indicator_columns_added": 1,
+    "stage0_files_indexed": 117,
+    "files": {
+        "processing_summary": "D:\\data\\stage0-launch-pad\\23_stage1_ready_export\\stage1_processing_summary.csv",
+        "column_mapping": "D:\\data\\stage0-launch-pad\\23_stage1_ready_export\\column_name_mapping.csv",
+        "missing_indicator_map": "D:\\data\\stage0-launch-pad\\23_stage1_ready_export\\missing_indicator_map.csv",
+        "risk_columns": "D:\\data\\stage0-launch-pad\\23_stage1_ready_export\\risk_columns_for_review.csv",
+        "stage0_file_index": "D:\\data\\stage0-launch-pad\\23_stage1_ready_export\\stage0_file_index.csv"
+    },
+    "next_action": "Stage1 reads dataset_for_stage_1.csv and stage1_handover_contract.json"
+}

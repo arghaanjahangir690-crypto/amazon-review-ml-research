@@ -1,0 +1,8 @@
+direction,score_out_of_100,suitability_level,possible_target,reason,recommended_metrics,required_user_confirmation
+Reporting / Dashboard,87,Highly suitable,No target required,Usually useful for tabular datasets even before ML.,"KPIs, summaries, charts",Confirm reporting questions.
+Research,82,Highly suitable,Depends on research question,"Useful if dataset supports questions, patterns, or comparisons.","Statistical summaries, tests, models",Confirm research objective.
+Classification,72,Moderately suitable,"['rating', 'rating_count_missing']",Suitable when a meaningful low-cardinality target exists.,"F1, Recall, Precision, Accuracy, ROC-AUC",Confirm categorical target and class meaning.
+Clustering,57,Weakly suitable,No target required,Useful when no target is confirmed but grouping records is valuable.,"Silhouette score, cluster profiles",Confirm clustering purpose and useful features.
+Anomaly Detection,57,Weakly suitable,No target required,Useful if unusual records are important.,"Anomaly review, domain validation",Confirm what type of anomaly matters.
+Prediction,52,Weakly suitable,[],Possible if a meaningful target column is confirmed.,Depends on target type,Confirm prediction goal and target column.
+Regression,47,Weakly suitable,[],Suitable when a meaningful numeric target exists.,"MAE, RMSE, R2",Confirm numeric target column.

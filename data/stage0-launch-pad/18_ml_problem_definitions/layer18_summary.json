@@ -1,0 +1,13 @@
+{
+    "stage": "Layer 18 - ML Problem Definitions",
+    "created_on": "2026-08-23 15:01:39.485307",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "numeric_columns_count": 0,
+    "categorical_columns_count": 16,
+    "possible_target_columns": [],
+    "date_columns": [],
+    "next_action": "Run Layer 19 - Research Recommendations"
+}

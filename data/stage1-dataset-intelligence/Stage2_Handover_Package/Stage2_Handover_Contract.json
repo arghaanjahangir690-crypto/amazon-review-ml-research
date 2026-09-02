@@ -1,0 +1,14 @@
+{
+    "stage": "Stage 1 Module 7 - Stage2 Handover",
+    "created_on": "2026-08-23 15:10:40.573446",
+    "dataset_for_stage2": "D:\\data\\dataset_for_stage_1.csv",
+    "primary_direction": "Reporting / Dashboard",
+    "target_column": "rating",
+    "allowed_features_count": 8,
+    "excluded_columns_count": 8,
+    "review_columns_count": 0,
+    "allowed_features_file": "D:\\data\\stage1-dataset-intelligence\\Stage2_Handover_Package\\Stage2_Allowed_Features.csv",
+    "excluded_columns_file": "D:\\data\\stage1-dataset-intelligence\\Stage2_Handover_Package\\Stage2_Excluded_Columns.csv",
+    "preprocessing_requirements_file": "D:\\data\\stage1-dataset-intelligence\\Stage2_Handover_Package\\Stage2_Preprocessing_Requirements.csv",
+    "next_action": "Start Stage 2 preprocessing and baseline modeling only after final confirmation."
+}

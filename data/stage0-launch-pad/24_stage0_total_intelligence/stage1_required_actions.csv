@@ -1,0 +1,8 @@
+step,required_action
+1,Load dataset_for_stage_1.csv
+2,Read stage0_total_intelligence.json
+3,Review risk columns
+4,Confirm target column
+5,Choose ML direction
+6,Write Stage1 decision report
+7,Do not train models until target and risks are confirmed

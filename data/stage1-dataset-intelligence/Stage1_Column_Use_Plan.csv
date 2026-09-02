@@ -1,0 +1,18 @@
+column_name,dtype,unique_values,missing_percentage,risk_type,column_role,use_decision
+product_id,object,1351,0.0,possible_id,Forbidden by user,Exclude
+product_name,object,1337,0.0,possible_pii,Risk column,Review or exclude
+category,object,211,0.0,,Possible feature,Use as feature
+discounted_price,object,550,0.0,,Possible feature,Use as feature
+actual_price,object,449,0.0,,Possible feature,Use as feature
+discount_percentage,object,92,0.0,possible_sensitive,Risk column,Review or exclude
+rating,object,28,0.0,,Confirmed Target Candidate,Use as target after final confirmation
+rating_count,object,1143,0.1365,,Possible feature,Use as feature
+about_product,object,1293,0.0,,Possible feature,Use as feature
+user_id,object,1194,0.0,possible_id,Forbidden by user,Exclude
+user_name,object,1194,0.0,possible_pii,Forbidden by user,Exclude
+review_id,object,1194,0.0,possible_id,Forbidden by user,Exclude
+review_title,object,1194,0.0,,Possible feature,Use as feature
+review_content,object,1212,0.0,,Possible feature,Use as feature
+img_link,object,1412,0.0,,Forbidden by user,Exclude
+product_link,object,1465,0.0,,Forbidden by user,Exclude
+rating_count_missing,int64,2,0.0,,Missing indicator feature,Use as feature if useful

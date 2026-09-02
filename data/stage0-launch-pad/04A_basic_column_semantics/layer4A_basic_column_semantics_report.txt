@@ -1,0 +1,56 @@
+
+LAYER 4A: BASIC COLUMN SEMANTICS REPORT
+==================================================
+
+Created On:
+2026-08-23 15:01:11.442674
+
+Dataset Name:
+dataset.csv
+
+Dataset Path:
+D:\data\dataset.csv
+
+Layer Status:
+REVIEW_REQUIRED
+
+Rows:
+1465
+
+Columns:
+16
+
+Role Counts:
+{'Possible Identifier Column': 3, 'Free Text Column': 7, 'High Cardinality Categorical Column': 4, 'Numeric Stored as Text': 2}
+
+Warnings:
+['Numeric values stored as text found.', 'High-cardinality categorical columns found.']
+
+Files Created:
+1. D:\data\stage0-launch-pad\04A_basic_column_semantics\layer4A_basic_column_semantics_report.txt
+2. D:\data\stage0-launch-pad\04A_basic_column_semantics\basic_column_semantics.csv
+3. D:\data\stage0-launch-pad\04A_basic_column_semantics\column_dictionary_draft.csv
+4. D:\data\stage0-launch-pad\04A_basic_column_semantics\layer4A_basic_column_semantics.json
+5. D:\data\stage0-launch-pad\04A_basic_column_semantics\layer4A_basic_column_semantics.xml
+
+Meaning:
+Layer 4A gives a basic semantic role to each column.
+
+It detects:
+1. Numeric columns
+2. Categorical columns
+3. Binary columns
+4. Date or time columns
+5. Free text columns
+6. Identifier-like columns
+7. Fully null columns
+8. Constant columns
+9. Numeric values stored as text
+10. High-cardinality categorical columns
+
+Important:
+Layer 4A does not decide target columns, PII risk, leakage risk, or ML usability.
+Those deeper checks will be handled in Layer 4B.
+
+Next Action:
+Run Layer 4B - Target, PII, Leakage and ML Usability Analysis.

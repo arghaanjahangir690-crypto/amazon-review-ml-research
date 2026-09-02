@@ -1,0 +1,37 @@
+{
+    "stage": "Layer 3 - Data Quality",
+    "created_on": "2026-08-23 15:01:09.913656",
+    "dataset_name": "dataset.csv",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "rows": 1465,
+    "columns": 16,
+    "layer_status": "GOOD",
+    "quality_score_out_of_100": 99.99,
+    "average_missing_percentage": 0.0085,
+    "empty_rows_count": 0,
+    "mostly_empty_rows_90_percent_plus_count": 0,
+    "duplicate_rows_count": 0,
+    "fully_null_columns": [],
+    "mostly_null_columns_80_percent_plus": [],
+    "placeholder_values_found": 0,
+    "warnings": [
+        "Noisy text values found."
+    ],
+    "recommendations": [
+        "Trim leading/trailing spaces and standardize category spelling/case where required."
+    ],
+    "files_created": {
+        "data_quality_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\data_quality_report.txt",
+        "missing_values_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\missing_values_report.csv",
+        "empty_rows_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\empty_rows_report.csv",
+        "duplicate_rows_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\duplicate_rows_report.csv",
+        "noisy_values_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\noisy_values_report.csv",
+        "placeholder_values_report": "D:\\data\\stage0-launch-pad\\03_data_quality\\placeholder_values_report.csv",
+        "initial_outlier_scan": "D:\\data\\stage0-launch-pad\\03_data_quality\\initial_outlier_scan.csv",
+        "quality_scorecard_json": "D:\\data\\stage0-launch-pad\\03_data_quality\\quality_scorecard.json",
+        "quality_scorecard_xml": "D:\\data\\stage0-launch-pad\\03_data_quality\\quality_scorecard.xml",
+        "cleaned_candidate_dataset": "D:\\data\\stage0-launch-pad\\03_data_quality\\stage0_cleaned_candidate.csv",
+        "cleaning_recommendations": "D:\\data\\stage0-launch-pad\\03_data_quality\\cleaning_recommendations.txt"
+    },
+    "next_action": "Run Layer 4 - Column Semantics"
+}

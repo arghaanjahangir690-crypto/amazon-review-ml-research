@@ -1,0 +1,40 @@
+{
+    "stage": "Layer 1 - Raw File Rescue",
+    "created_on": "2026-08-23 15:01:05.320117",
+    "dataset_path": "D:\\data\\dataset.csv",
+    "file_exists": true,
+    "file_extension": ".csv",
+    "file_size_bytes": 4744481,
+    "file_size_mb": 4.5247,
+    "selected_encoding": "utf-8",
+    "encoding_results": [
+        {
+            "encoding": "utf-8",
+            "status": "success",
+            "error": ""
+        }
+    ],
+    "bom_detected": false,
+    "null_bytes_count": 0,
+    "replacement_character_count": 0,
+    "control_character_count": 0,
+    "total_lines": 1466,
+    "empty_lines": 0,
+    "whitespace_only_lines": 0,
+    "very_long_lines": 30,
+    "guessed_delimiter": ",",
+    "delimiter_counts": {
+        "comma": 3376,
+        "semicolon": 6,
+        "tab": 0,
+        "pipe": 548
+    },
+    "expected_columns_from_header": 16,
+    "broken_rows_count": 0,
+    "broken_rows_report": "D:\\data\\stage0-launch-pad\\01_raw_file_rescue\\broken_rows_report.csv",
+    "layer_status": "REVIEW_REQUIRED",
+    "warnings": [
+        "Very long lines detected."
+    ],
+    "next_action": "Run Layer 2 - Dataset Structure"
+}

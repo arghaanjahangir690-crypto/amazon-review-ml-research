@@ -1,0 +1,20 @@
+
+METADATA QUESTIONS FOR USER / DOMAIN EXPERT
+==================================================
+
+1. What does each row represent?
+2. What does each column mean?
+3. Which column is the real target column for ML?
+4. Is the dataset real, synthetic, sampled, or modified?
+5. Who collected or created this dataset?
+6. When was the dataset collected?
+7. What is the source of the dataset?
+8. Are there privacy restrictions?
+9. Are there sensitive columns?
+10. Are there columns that must not be used in ML?
+11. Are there known errors or biases?
+12. What is the intended ML/AI use?
+13. What should not be done with this dataset?
+14. Are numeric units clearly defined?
+15. Are category meanings clearly defined?
+16. Are there legal, ethical, or consent limitations?
