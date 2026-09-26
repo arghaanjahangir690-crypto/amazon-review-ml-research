@@ -1,7 +1,73 @@
+# Python
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-.env
-venv/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Environments
 .venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
 Thumbs.db
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+service-account*.json
+
+# Local caches / logs
+.cache/
+.pytest_cache/
+.mypy_cache/
+logs/
+*.log
+tmp/
+temp/
+
+# Future raw/intermediate dataset copies.
+# IMPORTANT: .gitignore does not remove files that are already tracked.
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Large model / experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+wandb/
+mlruns/
+runs/
+
+# Local archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Local-only config
+config.local.yaml
+config.local.yml
+local_settings.py
