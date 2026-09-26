@@ -1,0 +1,10 @@
+# Package families implied by the completed research artifacts.
+# Exact historical versions were NOT preserved; this is not an environment lock file.
+pandas
+numpy
+scikit-learn
+scipy
+catboost
+joblib
+matplotlib
+jupyter
