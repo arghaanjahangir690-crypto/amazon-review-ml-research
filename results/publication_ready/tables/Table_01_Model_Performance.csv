@@ -1,0 +1,5 @@
+Rank,Model,MAE,RMSE,R2
+1,Feature-Level Fusion,0.1838,0.2596,0.2076
+2,Structured CatBoost,0.1891,0.2688,0.1501
+3,Late Fusion (50/50),0.1896,0.2641,0.1797
+4,Text TF-IDF + Ridge,0.1992,0.2724,0.1274
