@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite the associated paper or repository."
+title: "Amazon Product Rating Prediction Using Multi-View Fusion of Metadata and Review Text"
+type: software
+authors:
+  - family-names: "Ali"
+    given-names: "Hassan"
+repository-code: "https://github.com/arghaanjahangir690-crypto/amazon-review-ml-research"
+version: "1.0.0-draft"
+date-released: "2026-09-26"
+preferred-citation:
+  type: article
+  title: "Amazon Product Rating Prediction Using Multi-View Fusion of Metadata and Review Text"
+  authors:
+    - family-names: "Ali"
+      given-names: "Hassan"
+  year: 2026
+  notes: "Manuscript in preparation; update journal, volume, pages, and DOI after publication."

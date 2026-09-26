@@ -1,0 +1,2 @@
+Comparison,Fusion Fold Wins,Total Folds,MAE Improvement (%),Cohen's dz,Paired t-test p,Wilcoxon p,Significant at 0.05,Interpretation
+Feature-Level Fusion vs Structured CatBoost,4,5,2.7738,0.9571,0.0991,0.125,No,"Feature-level fusion produced lower mean MAE and won 4 of 5 grouped-CV folds, but the paired tests did not reach the conventional 0.05 significance threshold."

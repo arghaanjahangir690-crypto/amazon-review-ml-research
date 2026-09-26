@@ -1,0 +1,10 @@
+finding_id,finding,evidence
+F1,Feature-level fusion achieved the lowest out-of-fold MAE among all evaluated models.,"MAE=0.183839, RMSE=0.259551, R2=0.207595."
+F2,Feature-level fusion improved over the strongest structured-only CatBoost model.,MAE improvement≈2.78%.
+F3,The fusion advantage was consistent in most folds but was not conventionally statistically significant.,Fusion won 4/5 folds; paired t-test p=0.0991; Wilcoxon p=0.1250; Cohen's dz=0.957.
+F4,Review text was the most influential information group in the final fusion framework.,Removing review text increased MAE by 5.90%.
+F5,Category information made the second-largest feature-group contribution.,Removing category increased MAE by 4.16%.
+F6,Price-related information contributed meaningful additional predictive signal.,Removing price features increased MAE by 3.21%.
+F7,Engagement variables contributed the least among the tested structured feature groups.,Removing engagement features increased MAE by 0.73%.
+F8,Global text explanations were directionally coherent with product-review sentiment.,"Positive terms included excellent, awesome, easy, good quality and perfect; negative terms included not, bad, poor, waste of and not working."
+F9,Local OOF explanations were numerically reproducible within the predefined reconstruction tolerance.,3/3 representative cases passed; maximum absolute reconstruction difference=0.00002539.

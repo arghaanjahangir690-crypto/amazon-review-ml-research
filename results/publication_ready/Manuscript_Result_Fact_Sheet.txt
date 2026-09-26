@@ -1,0 +1,24 @@
+MANUSCRIPT RESULT FACT SHEET
+================================================================================
+
+Best model: Feature-Level Fusion
+Best OOF MAE: 0.183839
+Best OOF RMSE: 0.259551
+Best OOF R2: 0.207595
+
+Structured CatBoost OOF MAE: 0.189087
+Feature-level fusion MAE improvement over Structured CatBoost: 2.78%
+
+Ablation evidence:
+- Review Text: 5.90% MAE increase when removed
+- Category: 4.16% MAE increase when removed
+- Price: 3.21% MAE increase when removed
+- Engagement: 0.73% MAE increase when removed
+
+Statistical evidence:
+Fusion fold wins: 4/5
+Paired t-test p: 0.099080
+Wilcoxon p: 0.125000
+Cohen's dz: 0.9571
+
+Publication-safe interpretation: Feature-level fusion achieved the lowest mean out-of-fold MAE and lower MAE in four of five grouped-CV folds; however, the paired fold-level tests did not reach the conventional alpha=0.05 significance threshold.

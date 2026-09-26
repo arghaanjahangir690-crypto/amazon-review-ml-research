@@ -1,0 +1,7 @@
+Configuration,Mean MAE,MAE SD,Mean RMSE,Mean R2,MAE Change vs Full (%)
+Full Fusion,0.1838,0.0099,0.2591,0.2046,0.0
+Without Engagement,0.1852,0.0088,0.2551,0.2302,0.7269
+Without Price,0.1897,0.0123,0.265,0.169,3.2132
+Without Category,0.1915,0.0097,0.2676,0.1526,4.1593
+Without Review Text,0.1947,0.0099,0.2726,0.1197,5.9015
+Text Only,0.1992,0.0114,0.2722,0.1256,8.3391
